@@ -1,0 +1,9 @@
+2021-01-29T07:48:10+00:00 CRITICAL Uncaught Error: Call to undefined function WebpConverter\Traits\curl_init() in /var/www/wordpress/wp-content/plugins/webp-converter-for-media/app/Traits/FileLoaderTrait.php:36
+Stack trace:
+#0 /var/www/wordpress/wp-content/plugins/webp-converter-for-media/app/Traits/FileLoaderTrait.php(21): WebpConverter\Error\RewritesError->getFileSizeForLoadedFile()
+#1 /var/www/wordpress/wp-content/plugins/webp-converter-for-media/app/Error/RewritesError.php(72): WebpConverter\Error\RewritesError->getFileSizeByUrl()
+#2 /var/www/wordpress/wp-content/plugins/webp-converter-for-media/app/Error/RewritesError.php(31): WebpConverter\Error\RewritesError->ifRedirectsAreWorks()
+#3 /var/www/wordpress/wp-content/plugins/webp-converter-for-media/app/Settings/Errors.php(64): WebpConverter\Error\RewritesError->getErrorCodes()
+#4 /var/www/wordpress/wp-content/plugins/webp-converter-for-media/app/Settings/Errors.php(38): WebpConverter\Settings\Errors->getErrorsList()
+#5 /var/www/wordpress/wp-content/plugins/webp-converter-for-media/app/Sett in /var/www/wordpress/wp-content/plugins/webp-converter-for-media/app/Traits/FileLoaderTrait.php on line 36
+

@@ -1,0 +1,2499 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: BUG-EMAIL-ADDR <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: yyyy-mm-dd hh:mm+0000\n"
+"PO-Revision-Date: 2019-12-07 11:48+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 2.2.4\n"
+"Last-Translator: \n"
+"Language: ar\n"
+
+#: functions.php:17
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr "نعم"
+
+#: functions.php:87
+msgid "Main Sidebar"
+msgstr "الشريط الجانبي الرئيسي"
+
+#: functions.php:89
+msgid "This is default sidebar."
+msgstr "الشريط الجانبي الافتراضي."
+
+#: functions.php:96
+msgid "Blog Left Sidebar"
+msgstr "الشريط الجانبي الأيسر للمدونة"
+
+#: functions.php:98
+msgid "This is blog left sidebar."
+msgstr "‫الشريط الجانبي الأيسر للمدونة."
+
+#: functions.php:105
+msgid "Blog Right Sidebar"
+msgstr "‫الشريط الجانبي الأيمن للمدونة"
+
+#: functions.php:107
+msgid "This is blog right sidebar."
+msgstr "‫‫الشريط الجانبي الأيمن للمدونة."
+
+#: functions.php:114
+msgid "Sidepanel Menu"
+msgstr "القائمة الجانبية‬"
+
+#: functions.php:116
+msgid "This is sidepanel header."
+msgstr "‫القائمة الجانبية."
+
+#: functions.php:123
+msgid "Sidepanel Info"
+msgstr "نص ‫القائمة الجانبية"
+
+#: functions.php:125
+msgid "This is sidepanel info."
+msgstr "‫نص ‫القائمة الجانبية."
+
+#: functions.php:132
+#, php-format
+msgid "Footer Widget %d"
+msgstr "فوتر ويدجيت %d"
+
+#: functions.php:134
+msgid "This is footer widget sidebar."
+msgstr "‫جزء الفوتر ويدجيت."
+
+#: functions.php:142
+msgid "Shop Sidebar"
+msgstr "الشريط الجانبي للمتجر‬"
+
+#: header-left-navigation.php:25 header-coming-soon.php:26 header.php:24
+#: framework/template-functions.php:161 framework/template-functions.php:163
+msgid "logo"
+msgstr "لوجو"
+
+#: header-left-navigation.php:73 framework/template-functions.php:622
+msgid "facebook"
+msgstr "فيسبوك"
+
+#: header-left-navigation.php:76 framework/template-functions.php:625
+msgid "twitter"
+msgstr "تويتر"
+
+#: header-left-navigation.php:79 framework/template-functions.php:628
+msgid "linkedin"
+msgstr "لينكد ان"
+
+#: header-left-navigation.php:82 framework/template-functions.php:631
+msgid "youtube"
+msgstr "يوتيوب"
+
+#: header-left-navigation.php:85 framework/template-functions.php:634
+msgid "instagram"
+msgstr "انستجرام"
+
+#: header-left-navigation.php:88 framework/template-functions.php:637
+msgid "pinterest"
+msgstr "بينتريست"
+
+#: 404.php:13
+msgid "404 "
+msgstr "404 "
+
+#: 404.php:15
+msgid "Oops! That page can’t be found."
+msgstr "عفوا! !لا يمكن العثور على هذه الصفحة."
+
+#: 404.php:20
+msgid "Back To Home "
+msgstr "العودة للصفحة الرئيسية "
+
+#: comments.php:29
+#, php-format
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "يعتقد ان &ldquo;%s&rdquo;"
+
+#: comments.php:33
+#, php-format
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: single-portfolio.php:28 single-portfolio.php:56 single-portfolio.php:99
+#: framework/templates/blog_single_basic/entry-link.php:15
+#: framework/templates/blog_single_basic/entry-gallery.php:16
+#: framework/templates/blog_single_basic/entry.php:12
+#: framework/templates/blog_single_basic/entry-video.php:13
+#: framework/templates/blog_single_basic/entry-audio.php:17
+#: framework/templates/blog_single_basic/entry-quote.php:12
+#: framework/templates/blog_single/entry-link.php:16
+#: framework/templates/blog_single/entry-gallery.php:34
+#: framework/templates/blog_single/entry.php:13
+#: framework/templates/blog_single/entry-video.php:19
+#: framework/templates/blog_single/entry-audio.php:19
+#: framework/templates/blog_single/entry-quote.php:13
+msgid "By "
+msgstr "بواسطة "
+
+#: single-portfolio.php:34 single-portfolio.php:62 single-portfolio.php:105
+#: framework/templates/blog_single_basic/entry-link.php:24
+#: framework/templates/blog_single_basic/entry-gallery.php:25
+#: framework/templates/blog_single_basic/entry.php:21
+#: framework/templates/blog_single_basic/entry-video.php:22
+#: framework/templates/blog_single_basic/entry-audio.php:26
+#: framework/templates/blog_single_basic/entry-quote.php:21
+#: framework/templates/blog_single/entry-link.php:25
+#: framework/templates/blog_single/entry-gallery.php:43
+#: framework/templates/blog_single/entry.php:22
+#: framework/templates/blog_single/entry-video.php:28
+#: framework/templates/blog_single/entry-audio.php:28
+#: framework/templates/blog_single/entry-quote.php:22
+msgid " Views"
+msgstr " مشاهدة"
+
+#: single-portfolio.php:67 framework/templates/blog_single/entry.php:26
+msgid "Scroll"
+msgstr "انتقل لأسفل الصفحة‬"
+
+#: single-portfolio.php:170 framework/templates/post-functions.php:110
+msgid "Related Posts"
+msgstr "المقالات ذات الصلة‬"
+
+#: searchform.php:9
+msgid "Search …"
+msgstr "بحث …"
+
+#: woocommerce/wc-template-function.php:24
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+"تم تقدير %s من 5‬\n"
+"‫‫‫‫"
+
+#: woocommerce/wc-template-function.php:25
+msgid "out of 5"
+msgstr "من 5"
+
+#: woocommerce/wc-template-function.php:48
+#, php-format
+msgid "Search Results: &ldquo;%s&rdquo;"
+msgstr "البحث عن النتائج : &ldquo;%s&rdquo;"
+
+#: woocommerce/wc-template-function.php:50
+#, php-format
+msgid "&nbsp;&ndash; Page %s"
+msgstr "‫&nbsp;&ndash; صفحة %s"
+
+#: woocommerce/wc-template-function.php:54
+msgid "Archives Products"
+msgstr "أرشيف ‫المنتجات‬"
+
+#: woocommerce/wc-template-function.php:78
+msgid "Free shipping coupon"
+msgstr ""
+"قسيمة الشحن مجانا\n"
+"‬"
+
+#: woocommerce/wc-template-function.php:101
+msgid "Free"
+msgstr "مجاني"
+
+#: woocommerce/checkout/review-order.php:23
+msgid "Your order"
+msgstr "طلبك"
+
+#: woocommerce/checkout/review-order.php:26 woocommerce/cart/cart.php:51
+msgid "Product"
+msgstr "المنتج"
+
+#: woocommerce/checkout/review-order.php:27
+#: woocommerce/checkout/review-order.php:96 woocommerce/cart/cart.php:36
+#: woocommerce/cart/cart.php:110 woocommerce/cart/cart-totals.php:98
+#: woocommerce/cart/cart-totals.php:99
+msgid "Total"
+msgstr "مجموع"
+
+#: woocommerce/checkout/review-order.php:55 woocommerce/cart/cart-totals.php:30
+#: woocommerce/cart/cart-totals.php:31
+msgid "Subtotal"
+msgstr "مبلغ إجمالي"
+
+#: woocommerce/checkout/payment.php:27
+msgid "Payment Method"
+msgstr "طريقة الدفع او السداد"
+
+#: woocommerce/checkout/payment.php:35
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"عذرًا ، يبدو أنه لا توجد طرق دفع متوفرة لحالتك. يرجى الاتصال بنا إذا كنت "
+"بحاجة إلى مساعدة أو ترغب في اتخاذ ترتيبات بديلة."
+
+#: woocommerce/checkout/payment.php:35
+msgid "Please fill in your details above to see available payment methods."
+msgstr "يرجى ملء التفاصيل الخاصة بك أعلاه لمعرفة طرق الدفع المتاحة."
+
+#: woocommerce/checkout/payment.php:42
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+"نظرًا لأن متصفحك لا يدعم JavaScript ، أو أنه معطل ، يرجى التأكد من النقر فوق "
+"الزر <em> تحديث إجماليات </em> قبل تقديم طلبك. قد يتم محاسبتك بأكثر من "
+"المبلغ المذكور أعلاه إذا لم تقم بذلك."
+
+#: woocommerce/checkout/payment.php:43
+msgid "Update totals"
+msgstr "تحدبث المجموع"
+
+#: woocommerce/checkout/form-billing.php:37
+msgid "Create an account?"
+msgstr "إنشاء حساب?"
+
+#: woocommerce/checkout/form-billing.php:44
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+"قم بإنشاء حساب بإدخال المعلومات أدناه. إذا كنت أحد العملاء العائدين ، فيرجى "
+"تسجيل الدخول في الجزء العلوي من الصفحة."
+
+#: woocommerce/checkout/form-checkout.php:28
+msgid "You must be logged in to checkout."
+msgstr "يجب عليك أن تقوم بتسجيل الدخول للدفع."
+
+#: woocommerce/checkout/form-checkout.php:40
+msgid "Billing Details"
+msgstr "تفاصيل الفاتورة"
+
+#: woocommerce/checkout/form-shipping.php:27
+msgid "Ship to a different address?"
+msgstr "شحن إلى عنوان مختلف؟"
+
+#: woocommerce/checkout/form-shipping.php:61
+msgid "Additional information"
+msgstr "معلومات اضافية"
+
+#: woocommerce/cart/cart.php:33
+msgid "Products"
+msgstr "منتجات"
+
+#: woocommerce/cart/cart.php:34 woocommerce/cart/cart.php:87
+msgid "Price"
+msgstr "السعر"
+
+#: woocommerce/cart/cart.php:35
+msgid "Qty"
+msgstr "الكمية"
+
+#: woocommerce/cart/cart.php:56
+msgid "Remove this item"
+msgstr ""
+"ازالة هذا العنصر\n"
+"‬"
+
+#: woocommerce/cart/cart.php:82
+msgid "Available on backorder"
+msgstr "متوفر على لائحة الرد"
+
+#: woocommerce/cart/cart.php:93
+#: woocommerce/single-product/add-to-cart/simple.php:34
+msgid "Quantity"
+msgstr "كمية"
+
+#: woocommerce/cart/cart.php:128
+msgid "Coupon"
+msgstr "قسيمة"
+
+#: woocommerce/cart/cart.php:128
+msgid "Coupon code"
+msgstr "رمز القسيمة"
+
+#: woocommerce/cart/cart.php:128
+msgid "Apply Coupon"
+msgstr ""
+"تطبيق القسيمة\n"
+"‬"
+
+#: woocommerce/cart/cart.php:133
+msgid "Update Cart"
+msgstr "تحديث السلة"
+
+#: woocommerce/cart/cart-totals.php:25
+msgid "Cart totals"
+msgstr ""
+"مجموع السلة‬\n"
+"‫"
+
+#: woocommerce/cart/cart-totals.php:52 woocommerce/cart/cart-totals.php:53
+msgid "Shipping"
+msgstr "الشحن"
+
+#: woocommerce/cart/cart-totals.php:72
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:23
+msgid "Quick info"
+msgstr "معلومات سريعة"
+
+#: woocommerce/single-product/meta.php:25
+msgid "SKU: "
+msgstr "‫SKU:‬ "
+
+#: woocommerce/single-product/meta.php:25
+msgid "N/A"
+msgstr "‫N/A"
+
+#: woocommerce/single-product/meta.php:27
+msgid " Category:"
+msgid_plural "Categories:"
+msgstr[0] " التصنيف:"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: woocommerce/single-product/meta.php:28
+msgid " Tag:"
+msgid_plural "Tags:"
+msgstr[0] " الوسوم:"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: woocommerce/single-product/product-image.php:40
+#: woocommerce/single-product/product-image.php:79
+msgid "Awaiting product image"
+msgstr "في انتظار صورة المنتج"
+
+#: woocommerce/single-product/meta_top.php:28
+msgid "In Store: "
+msgstr "في المتجر:‬ "
+
+#: woocommerce/single-product/related.php:23
+msgid "Related Products"
+msgstr "منتجات ذات صله"
+
+#: woocommerce/single-product/rating.php:41
+#, php-format
+msgid "%1$s out of %2$s"
+msgstr "‫%1$s من %2$s"
+
+#: woocommerce/single-product/rating.php:49
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: woocommerce/single-product/rating.php:55
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr "هذا المنتج غير متوفر حاليًا وغير متاح."
+
+#: woocommerce/single-product/add-to-cart/variable.php:42
+msgid "Clear All"
+msgstr "مسح الكل"
+
+#: woocommerce/single-product/add-to-cart/variation.php:31
+msgid ""
+"Sorry, this product is unavailable. Please choose a different combination."
+msgstr "عذرا ، هذا المنتج غير متوفر. يرجى اختيار مجموعة مختلفة."
+
+#: woocommerce/loop/result-count.php:37
+msgid "Showing the single Products"
+msgstr "عرض المنتج‬"
+
+#: woocommerce/loop/result-count.php:39
+#, php-format
+msgid "Showing all %d Products"
+msgstr "عرض جميع المنتجات %d‬"
+
+#: woocommerce/loop/result-count.php:41
+#, php-format
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "Showing %1$d&ndash;%2$d of %3$d Products"
+msgstr "عرض %1$d&ndash;%2$d of %3$d  المنتجات"
+
+#: woocommerce/loop/pagination.php:37 framework/template-functions.php:576
+#: framework/shortcodes/product_grid/product_grid.php:146
+msgid "&laquo; Prev"
+msgstr "‫&laquo; السابق"
+
+#: woocommerce/loop/pagination.php:38 framework/template-functions.php:577
+#: framework/shortcodes/product_grid/product_grid.php:147
+msgid "Next &raquo;"
+msgstr "‫‫التالى &raquo;"
+
+#: woocommerce/loop/price.php:16
+msgid "PRICE:"
+msgstr "السعر:"
+
+#: framework/template-functions.php:24
+msgid "Main Navigation"
+msgstr "القائمة الرئيسية‬"
+
+#: framework/template-functions.php:25
+msgid "One Page Menu"
+msgstr "قائمة الصفحة الواحدة‬"
+
+#: framework/template-functions.php:243 framework/template-functions.php:284
+#: framework/template-functions.php:288
+msgid "Home"
+msgstr "الصفحة الرئيسية"
+
+#: framework/template-functions.php:244 framework/admin/options.php:721
+#: framework/admin/options.php:972 framework/admin/options.php:1111
+#: framework/admin/options.php:1240 framework/admin/options.php:1415
+msgid "Search"
+msgstr "بحث"
+
+#: framework/template-functions.php:245
+msgid "Page Not Found "
+msgstr "الصفحة غير موجودة "
+
+#: framework/template-functions.php:256
+#, php-format
+msgid "Author: %s"
+msgstr "الكاتب: %s"
+
+#: framework/template-functions.php:258
+#, php-format
+msgid "Day: %s"
+msgstr "اليوم: %s"
+
+#: framework/template-functions.php:260
+#, php-format
+msgid "Month: %s"
+msgstr "الشهر: %s"
+
+#: framework/template-functions.php:262
+#, php-format
+msgid "Year: %s"
+msgstr "السنة: %s"
+
+#: framework/template-functions.php:263
+msgid "Asides"
+msgstr "الجانبية"
+
+#: framework/template-functions.php:264
+msgid "Galleries"
+msgstr "المعارض"
+
+#: framework/template-functions.php:265
+msgid "Images"
+msgstr "الصور"
+
+#: framework/template-functions.php:266
+msgid "Videos"
+msgstr "الفيديو"
+
+#: framework/template-functions.php:267
+msgid "Quotes"
+msgstr "الاقتباس"
+
+#: framework/template-functions.php:268
+msgid "Links"
+msgstr "الروابط"
+
+#: framework/template-functions.php:269
+msgid "Statuses"
+msgstr "الحالة"
+
+#: framework/template-functions.php:270
+msgid "Audios"
+msgstr "الصوتيات"
+
+#: framework/template-functions.php:271
+msgid "Chats"
+msgstr "الدردشات"
+
+#: framework/template-functions.php:272
+msgid "Archives"
+msgstr "الأرشيف"
+
+#: framework/template-functions.php:295
+msgid "Archive by category: "
+msgstr "الأرشيف حسب التصنيف: "
+
+#: framework/template-functions.php:297
+msgid "Search results for: "
+msgstr "نتائج البحث عن: "
+
+#: framework/template-functions.php:364
+msgid "Posts tagged: "
+msgstr "مقالات متعلقة: "
+
+#: framework/template-functions.php:368
+msgid "Articles posted by "
+msgstr "المقالات التي نشرت من قبل "
+
+#: framework/template-functions.php:370
+msgid "Error 404"
+msgstr "خطأ 404"
+
+#: framework/template-functions.php:374 framework/admin/options.php:2647
+msgid "Page"
+msgstr "صفحة"
+
+#: framework/template-functions.php:522 framework/template-functions.php:524
+msgid "Previous Page"
+msgstr "الصفحة السابقة"
+
+#: framework/template-functions.php:527 framework/template-functions.php:529
+msgid "Next Page"
+msgstr "الصفحة التالية"
+
+#: framework/template-functions.php:640
+msgid "dribbble"
+msgstr "دريبل"
+
+#: framework/template-functions.php:643
+msgid "deviantart"
+msgstr ""
+"دفينتارت\n"
+"‬"
+
+#: framework/template-functions.php:646
+msgid "flickr"
+msgstr "فليكر"
+
+#: framework/template-functions.php:649
+msgid "rss"
+msgstr "‫rss"
+
+#: framework/template-functions.php:652
+msgid "tumblr"
+msgstr "تمبلر"
+
+#: framework/template-functions.php:655
+msgid "vimeo"
+msgstr "فيميو"
+
+#: framework/template-functions.php:658
+msgid "skype"
+msgstr "سكايب"
+
+#: framework/template-functions.php:661
+msgid "Soundcloud"
+msgstr "ساوند كلاود"
+
+#: framework/template-functions.php:664
+msgid "behance"
+msgstr "بيهانس"
+
+#: framework/template-functions.php:667
+msgid "tripadvisor"
+msgstr "‫tripadvisor"
+
+#: framework/admin/options.php:59 framework/admin/options.php:60
+msgid "Theme Options"
+msgstr "خيارات القالب"
+
+#: framework/admin/options.php:167
+msgid "Theme Information 1"
+msgstr "معلومات القالب‬"
+
+#: framework/admin/options.php:168 framework/admin/options.php:173
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+"‫<p> محتوى هذا  التبويب   ، HTML مسموح به. </ p>\n"
+"‬"
+
+#: framework/admin/options.php:172
+msgid "Theme Information 2"
+msgstr "‫معلومات القالب"
+
+#: framework/admin/options.php:179
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+"‫‫<p> محتوى هذا  الشريط الجانبي ، HTML مسموح به. </ p>\n"
+"‬"
+
+#: framework/admin/options.php:199
+msgid "General"
+msgstr "عام"
+
+#: framework/admin/options.php:205 framework/admin/options.php:569
+msgid "Layout"
+msgstr "‫تخطيط"
+
+#: framework/admin/options.php:206 framework/admin/options.php:570
+msgid "Body layout with wide or boxed."
+msgstr "تخطيط الموقع ممتد أو ضيق."
+
+#: framework/admin/options.php:218 framework/admin/options.php:475
+#: framework/admin/options.php:741 framework/admin/options.php:841
+#: framework/admin/options.php:884
+msgid "in pixels."
+msgstr "بالبكسل."
+
+#: framework/admin/options.php:230
+msgid "Page Loader"
+msgstr "داة تحميل الصفحة"
+
+#: framework/admin/options.php:231
+msgid "Enable/Disable page loader."
+msgstr "تمكين / تعطيل أداة تحميل الصفحة."
+
+#: framework/admin/options.php:237
+msgid "Lazy Load"
+msgstr "تحميل بطئ"
+
+#: framework/admin/options.php:238
+msgid "Enable/Disable lazy load images."
+msgstr "تمكين / تعطيل‬ ‫‫‫تحميل الصور‬."
+
+#: framework/admin/options.php:244
+msgid "Mouse Cursor"
+msgstr "مؤشر الماوس"
+
+#: framework/admin/options.php:245
+msgid "Select your mouse cursor style."
+msgstr "حدد نمط مؤشر الماوس الخاص بك."
+
+#: framework/admin/options.php:258
+msgid "Color"
+msgstr "اللون"
+
+#: framework/admin/options.php:265
+msgid "Theme Stylesheet"
+msgstr "أنماط تصميم القالب‬"
+
+#: framework/admin/options.php:266
+msgid "Select your themes alternative color scheme."
+msgstr "حدد سمات نظام الألوان البديل الخاص بك."
+
+#: framework/admin/options.php:282
+msgid "primary color"
+msgstr "لون أساسى"
+
+#: framework/admin/options.php:283
+msgid "Controls primary color items. (default: #4208bc)."
+msgstr "يتحكم في عناصر اللون الأساسي. (الافتراضي: # 4208bc)."
+
+#: framework/admin/options.php:290
+msgid "secondary color"
+msgstr "اللون الثانوي"
+
+#: framework/admin/options.php:291
+msgid "Control secondary color items. (default: #7141f9)."
+msgstr "التحكم في عناصر اللون الثانوي. (الافتراضي: # 7141f9)."
+
+#: framework/admin/options.php:298
+msgid "Body Background"
+msgstr "خلفية القالب"
+
+#: framework/admin/options.php:299
+msgid "Body background with image, color, etc."
+msgstr "خلفية  القالب الصورة ، اللون ، إلى آخره.."
+
+#: framework/admin/options.php:310
+msgid "Typography"
+msgstr "تنسيق الخط"
+
+#: framework/admin/options.php:317
+msgid "Body Font Options"
+msgstr "خيارات خط القالب‬"
+
+#: framework/admin/options.php:323 framework/admin/options.php:343
+#: framework/admin/options.php:362 framework/admin/options.php:381
+#: framework/admin/options.php:400 framework/admin/options.php:419
+#: framework/admin/options.php:438 framework/admin/options.php:586
+#: framework/admin/options.php:647 framework/admin/options.php:677
+#: framework/admin/options.php:782 framework/admin/options.php:821
+#: framework/admin/options.php:915 framework/admin/options.php:935
+#: framework/admin/options.php:1031 framework/admin/options.php:1074
+#: framework/admin/options.php:1193 framework/admin/options.php:1221
+#: framework/admin/options.php:1323 framework/admin/options.php:1350
+#: framework/admin/options.php:1370 framework/admin/options.php:1445
+#: framework/admin/options.php:1465 framework/admin/options.php:1485
+#: framework/admin/options.php:1554 framework/admin/options.php:1720
+#: framework/admin/options.php:1741 framework/admin/options.php:1824
+#: framework/admin/options.php:1844 framework/admin/options.php:1921
+#: framework/admin/options.php:1942 framework/admin/options.php:2026
+#: framework/admin/options.php:2046 framework/admin/options.php:2126
+#: framework/admin/options.php:2147 framework/admin/options.php:2230
+#: framework/admin/options.php:2251 framework/admin/options.php:2353
+#: framework/admin/options.php:2373 framework/admin/options.php:2400
+msgid "Typography option with each property can be called individually."
+msgstr "يمكن استدعاء ‫خيارات الخط مع كل خاصية على حدة."
+
+#: framework/admin/options.php:337
+msgid "H1 Font Options"
+msgstr "خيارات الخط H1‬"
+
+#: framework/admin/options.php:356
+msgid "H2 Font Options"
+msgstr "‫خيارات الخط H2"
+
+#: framework/admin/options.php:375
+msgid "H3 Font Options"
+msgstr "‫‫خيارات الخط H3"
+
+#: framework/admin/options.php:394
+msgid "H4 Font Options"
+msgstr "‫‫‫خيارات الخط H4"
+
+#: framework/admin/options.php:413
+msgid "H5 Font Options"
+msgstr "‫‫‫خيارات الخط H5"
+
+#: framework/admin/options.php:432
+msgid "H6 Font Options"
+msgstr "‫‫‫خيارات الخط H6"
+
+#: framework/admin/options.php:453 framework/admin/options.php:462
+msgid "Logo"
+msgstr "شعار"
+
+#: framework/admin/options.php:463
+msgid "Select an image file for your logo."
+msgstr "حدد ملف صورة لشعارك."
+
+#: framework/admin/options.php:470
+msgid "Logo white"
+msgstr "الشعار الابيض‬"
+
+#: framework/admin/options.php:471
+msgid "Select an image file for your white logo."
+msgstr "حدد ملف صورة لشعارك الأبيض."
+
+#: framework/admin/options.php:491
+msgid "Custom favicon"
+msgstr "ايقونة الموقع"
+
+#: framework/admin/options.php:493
+msgid ""
+"Upload a 16px x 16px png/ico image that will represent your website's favicon"
+msgstr ""
+"قم بتحميل صورة بحجم 16px × 16px تمثل ‫ ايقونة الموقع الخاص بك‬\n"
+"‫"
+
+#: framework/admin/options.php:502
+msgid "Header"
+msgstr "‫الهيدر"
+
+#: framework/admin/options.php:509
+msgid "Header Layout"
+msgstr "تخطيط ‫الهيدر"
+
+#: framework/admin/options.php:510
+msgid "Select header layout in your site."
+msgstr "حدد تخطيط ‫الهيدر في موقعك."
+
+#: framework/admin/options.php:548
+msgid "Main Menu"
+msgstr "القائمة الرئيسية"
+
+#: framework/admin/options.php:555
+msgid "Menu Header V1"
+msgstr "القائمة V1‬"
+
+#: framework/admin/options.php:562 framework/admin/options.php:834
+msgid "Fixed Menu"
+msgstr "قائمة مثبته‬"
+
+#: framework/admin/options.php:563 framework/admin/options.php:835
+msgid "Enable/Disable fixed menu."
+msgstr "مفعل وغير مفعل ‫قائمة مثبته."
+
+#: framework/admin/options.php:580 framework/admin/options.php:1734
+#: framework/admin/options.php:1838 framework/admin/options.php:1935
+#: framework/admin/options.php:2040 framework/admin/options.php:2140
+#: framework/admin/options.php:2244
+msgid "Font Options"
+msgstr "خيارات الخط‬"
+
+#: framework/admin/options.php:600 framework/admin/options.php:661
+#: framework/admin/options.php:756 framework/admin/options.php:899
+#: framework/admin/options.php:1283 framework/admin/options.php:1499
+#: framework/admin/options.php:2318 framework/admin/options.php:2671
+#: framework/admin/options.php:2695
+msgid "Background"
+msgstr "خلفية"
+
+#: framework/admin/options.php:601 framework/admin/options.php:757
+#: framework/admin/options.php:1016 framework/admin/options.php:1284
+msgid "Controls background color (default: transparent)."
+msgstr "يتحكم في لون الخلفية (الافتراضي: شفاف)."
+
+#: framework/admin/options.php:610
+msgid "Enable or disable social icons on nav bar"
+msgstr "تمكين أو تعطيل الرموز الاجتماعية على شريط التنقل‬"
+
+#: framework/admin/options.php:611
+msgid "It's work only if is enabled canvas menu style"
+msgstr "إنه يعمل فقط إذا تم تمكين نمط القائمة‬"
+
+#: framework/admin/options.php:619
+msgid "text"
+msgstr "نص"
+
+#: framework/admin/options.php:620
+msgid "Please, Enter text menu."
+msgstr "من فضلك ، أدخل نص القائمة."
+
+#: framework/admin/options.php:627
+msgid "Menu Header V2"
+msgstr "‫القائمة V2"
+
+#: framework/admin/options.php:634 framework/admin/options.php:949
+#: framework/admin/options.php:1088 framework/admin/options.php:1144
+#: framework/admin/options.php:1275
+msgid "Stick Menu"
+msgstr "‫القائمة اللاصقة"
+
+#: framework/admin/options.php:635 framework/admin/options.php:950
+#: framework/admin/options.php:1089 framework/admin/options.php:1145
+#: framework/admin/options.php:1276
+msgid "Enable/Disable stick menu."
+msgstr "تمكين / تعطيل قائمة  اللاصقة."
+
+#: framework/admin/options.php:641 framework/admin/options.php:776
+#: framework/admin/options.php:866 framework/admin/options.php:909
+#: framework/admin/options.php:1025 framework/admin/options.php:1187
+#: framework/admin/options.php:1317 framework/admin/options.php:1439
+msgid "First Level Font Options"
+msgstr "خيارات الخط المستوى الأول"
+
+#: framework/admin/options.php:662 framework/admin/options.php:706
+msgid "Controls background color (default:#fff)."
+msgstr "يتحكم في لون الخلفية (الافتراضي: #fff)."
+
+#: framework/admin/options.php:671 framework/admin/options.php:809
+#: framework/admin/options.php:929 framework/admin/options.php:1060
+#: framework/admin/options.php:1207 framework/admin/options.php:1337
+msgid "Sub Level Font Options"
+msgstr "خيارات مستوى الخط الفرعي"
+
+#: framework/admin/options.php:691 framework/admin/options.php:796
+#: framework/admin/options.php:1045 framework/admin/options.php:1161
+#: framework/admin/options.php:1293
+msgid "Background Sub Level"
+msgstr "المستوى الفرعي للخلفية"
+
+#: framework/admin/options.php:692
+msgid "Controls background color (default:#171a1d)."
+msgstr "يتحكم في لون الخلفية (الافتراضي: # 171a1d)."
+
+#: framework/admin/options.php:705 framework/admin/options.php:956
+#: framework/admin/options.php:1176 framework/admin/options.php:1306
+msgid "Stick Background"
+msgstr ""
+"الخلفية اللاصقه‬\n"
+"‫‫"
+
+#: framework/admin/options.php:716 framework/admin/options.php:1106
+#: framework/admin/options.php:1235 framework/admin/options.php:1385
+msgid "Menu Right Icons"
+msgstr "قائمة الرموز الصحيحة‬"
+
+#: framework/admin/options.php:719 framework/admin/options.php:970
+#: framework/admin/options.php:1109 framework/admin/options.php:1238
+#: framework/admin/options.php:1414
+msgid "Lang"
+msgstr "لغة"
+
+#: framework/admin/options.php:720 framework/admin/options.php:982
+#: framework/admin/options.php:1112 framework/admin/options.php:1241
+#: framework/admin/options.php:1417
+msgid "Cart"
+msgstr "عربة التسوق"
+
+#: framework/admin/options.php:728 framework/admin/options.php:1113
+#: framework/admin/options.php:1242 framework/admin/options.php:1416
+msgid "Sidepanel"
+msgstr "لوحة جانبية"
+
+#: framework/admin/options.php:729
+msgid "Enable/Disable Sidepanel."
+msgstr "تمكين / تعطيل لوحة جانبية."
+
+#: framework/admin/options.php:736
+msgid "Menu Header V3"
+msgstr "‫القائمة V3"
+
+#: framework/admin/options.php:766
+msgid "Menu Color Mode "
+msgstr "وضع لون القائمة "
+
+#: framework/admin/options.php:797
+msgid "Controls background color (default: #041026 )."
+msgstr "يتحكم في لون الخلفية (الافتراضي: # 041026)."
+
+#: framework/admin/options.php:855
+msgid "Background fixed menu"
+msgstr "خلفية القائمة الثابتة"
+
+#: framework/admin/options.php:856
+msgid "Controls background fixed menu color (default: transparent)."
+msgstr "يتحكم في لون قائمة الخلفية الثابتة (الافتراضي: شفاف)."
+
+#: framework/admin/options.php:867
+msgid "Typography color option."
+msgstr "خيار لون الخط."
+
+#: framework/admin/options.php:879
+msgid "Menu Header V4"
+msgstr "‫‫القائمة V4"
+
+#: framework/admin/options.php:900
+msgid "Controls background color (default:transparent)."
+msgstr "يتحكم في لون الخلفية (الافتراضي: شفاف)."
+
+#: framework/admin/options.php:957 framework/admin/options.php:1307
+#: framework/admin/options.php:1500
+msgid "Controls background color (default: #fff)."
+msgstr "يتحكم في لون الخلفية (الافتراضي: #fff)."
+
+#: framework/admin/options.php:967
+msgid "Menu Right"
+msgstr "القائمة الصحيحة"
+
+#: framework/admin/options.php:971 framework/admin/options.php:1110
+#: framework/admin/options.php:1239 framework/admin/options.php:1388
+#: framework/admin/options.php:1539 framework/admin/options.php:2756
+msgid "Social"
+msgstr "اجتماعي"
+
+#: framework/admin/options.php:979
+msgid "Menu Left"
+msgstr "القائمة اليسار‬"
+
+#: framework/admin/options.php:983 framework/admin/options.php:1114
+#: framework/admin/options.php:1243 framework/admin/options.php:1389
+#: framework/admin/options.php:2731
+msgid "Button"
+msgstr "زر"
+
+#: framework/admin/options.php:990
+msgid "Menu Left Button"
+msgstr "زر القائمة اليسرى‬"
+
+#: framework/admin/options.php:991 framework/admin/options.php:1122
+#: framework/admin/options.php:1251 framework/admin/options.php:1397
+msgid "Please, Enter menu right button name."
+msgstr "من فضلك ، أدخل القائمة اسم الزر الأيمن."
+
+#: framework/admin/options.php:998
+msgid "Menu Left Button Link"
+msgstr "زر الرابط للقائمة اليسار"
+
+#: framework/admin/options.php:999 framework/admin/options.php:1129
+#: framework/admin/options.php:1259 framework/admin/options.php:1404
+msgid "Please, Enter menu right button link."
+msgstr "من فضلك ادخل رابط زر للقائمةاليسار."
+
+#: framework/admin/options.php:1008
+msgid "Menu Header V5"
+msgstr "‫‫‫القائمة V5"
+
+#: framework/admin/options.php:1015
+msgid "Menu Background"
+msgstr "خلفية القائمة"
+
+#: framework/admin/options.php:1046
+msgid "Controls background color (default: #868686)."
+msgstr "يتحكم في لون الخلفية (الافتراضي: # 868686)."
+
+#: framework/admin/options.php:1095
+msgid "Stick Menu Background"
+msgstr ""
+"خلفية القائمة اللاصقه‬\n"
+"‫‫"
+
+#: framework/admin/options.php:1096
+msgid "Controls background color (default: #fff."
+msgstr "يتحكم في لون الخلفية (الافتراضي: #fff."
+
+#: framework/admin/options.php:1121 framework/admin/options.php:1250
+#: framework/admin/options.php:1396
+msgid "Menu Right Button"
+msgstr "زر القائمة اليمنى‬"
+
+#: framework/admin/options.php:1128 framework/admin/options.php:1258
+#: framework/admin/options.php:1403
+msgid "Menu Right Button Link"
+msgstr "القائمة اليمنى رابط الزر"
+
+#: framework/admin/options.php:1137
+msgid "Menu Header V6"
+msgstr "‫‫‫‫القائمة V6"
+
+#: framework/admin/options.php:1151
+msgid "Background Main Menu"
+msgstr "خلفية القائمة الرئيسية"
+
+#: framework/admin/options.php:1152
+msgid "Controls background color (default:transparent )."
+msgstr "يتحكم في لون الخلفية (الافتراضي: شفاف)."
+
+#: framework/admin/options.php:1162 framework/admin/options.php:1294
+msgid "Controls background color (default: #041026)."
+msgstr "يتحكم في لون الخلفية (الافتراضي: # 041026)."
+
+#: framework/admin/options.php:1177
+msgid "Controls background color (default:rgba(0,0,0,0.7) )."
+msgstr "يتحكم في لون الخلفية (الافتراضي: rgba (0،0،0،0.7))."
+
+#: framework/admin/options.php:1268
+msgid "Menu Header V7"
+msgstr "‫‫‫‫‫القائمة V7"
+
+#: framework/admin/options.php:1364
+msgid "First Level Font Options in stick menu"
+msgstr ""
+"خيارات الخط المستوى الأول في القائمة  اللاصقه‬\n"
+"‫"
+
+#: framework/admin/options.php:1411
+msgid "Right Icons (Top Menu)"
+msgstr "الرموز الايمن (أعلى القائمة)"
+
+#: framework/admin/options.php:1424
+msgid "Left Text (Top Menu)"
+msgstr "النص الأيسر (أعلى القائمة)‬"
+
+#: framework/admin/options.php:1431
+msgid "Menu Left Nav"
+msgstr "القائمة اليسار‬"
+
+#: framework/admin/options.php:1459
+msgid "Sub Level 1 Font Options"
+msgstr "المستوى الفرعي 1 خيارات الخط‬"
+
+#: framework/admin/options.php:1479
+msgid "Sub Level 2 Font Options"
+msgstr "المستوى الفرعي 2 خيارات الخط‬"
+
+#: framework/admin/options.php:1509
+msgid "social icons"
+msgstr "الرموز الاجتماعية"
+
+#: framework/admin/options.php:1510
+msgid "Enable or disable social icons"
+msgstr "تمكين أو تعطيل الرموز الاجتماعية‬"
+
+#: framework/admin/options.php:1518
+msgid "Text Copyright"
+msgstr "نص حقوق النشر"
+
+#: framework/admin/options.php:1525
+msgid "Meun Sidepanel"
+msgstr "قائمة جانبيىة‬"
+
+#: framework/admin/options.php:1534
+msgid "Sidepanel Content for header V2, V5, V6, V7"
+msgstr ""
+"محتوى اللوحة الجانبية للهيدر V2 و V5 و V6 و V7\n"
+"‬"
+
+#: framework/admin/options.php:1535
+msgid ""
+"Controls sidepanl nav and info from Appearance -> Widgets -> Sidepanel Menu, "
+"Sidepanel Info"
+msgstr ""
+"يتحكم في شريط التنقل الجانبي والمعلومات من المظهر -> الأدوات -> قائمة اللوحة "
+"الجانبية ، معلومات الشريط الجانبي"
+
+#: framework/admin/options.php:1538
+msgid "Nav"
+msgstr "القائمه"
+
+#: framework/admin/options.php:1540
+msgid "Right section"
+msgstr "القسم الأيمن‬"
+
+#: framework/admin/options.php:1548
+msgid "Menu Sidepanel Font Options"
+msgstr "خيارات خط للقائمه جانبية ‬"
+
+#: framework/admin/options.php:1570
+msgid "Meun Lang Icon"
+msgstr "أيقونة اللغة‬"
+
+#: framework/admin/options.php:1577
+msgid "Main languages Name"
+msgstr "اللغة الرئيسية"
+
+#: framework/admin/options.php:1579
+msgid "Add Main Languages Name"
+msgstr "أضف اسم اللغة الرئيسية ‬"
+
+#: framework/admin/options.php:1584
+msgid "English Link"
+msgstr "رابط الإنجليزية‬"
+
+#: framework/admin/options.php:1585
+msgid "Your English Link"
+msgstr "‫رابط الإنجليزية الخاص بك"
+
+#: framework/admin/options.php:1590
+msgid "French Link"
+msgstr "‫رابط الفرنسية"
+
+#: framework/admin/options.php:1591
+msgid "Your French Link"
+msgstr "‫‫رابط الفرنسية الخاص بك"
+
+#: framework/admin/options.php:1596
+msgid "German Link"
+msgstr "‫‫رابط  الألمانية"
+
+#: framework/admin/options.php:1597
+msgid "Your German Link"
+msgstr "‫‫رابط الألمانية الخاص بك"
+
+#: framework/admin/options.php:1602
+msgid "Deutsch Link"
+msgstr "‫‫رابط الألمانية"
+
+#: framework/admin/options.php:1603
+msgid "Your Deutsch Link"
+msgstr "‫‫رابط الألمانية الخاص بك"
+
+#: framework/admin/options.php:1608
+msgid "Romanian Link"
+msgstr "‫‫رابط رومانية"
+
+#: framework/admin/options.php:1609
+msgid "Your Romanian Link"
+msgstr "‫‫رابط رومانية الخاص بك"
+
+#: framework/admin/options.php:1614
+msgid "Arabic Link"
+msgstr "‫‫رابط العربىة"
+
+#: framework/admin/options.php:1615
+msgid "Your Arabic Link"
+msgstr "‫‫رابط  العربىة الخاص بك"
+
+#: framework/admin/options.php:1622
+msgid "Footer"
+msgstr "الفوتر"
+
+#: framework/admin/options.php:1629
+msgid "Footer Layout"
+msgstr "تخطيط ‫الفوتر"
+
+#: framework/admin/options.php:1630
+msgid "Select footer layout in your site."
+msgstr "حدد تخطيط ‫الفوتر في موقعك."
+
+#: framework/admin/options.php:1666
+msgid "Footer V1"
+msgstr "‫‫الفوتر V1"
+
+#: framework/admin/options.php:1672 framework/admin/options.php:1776
+#: framework/admin/options.php:1873 framework/admin/options.php:1978
+#: framework/admin/options.php:2081 framework/admin/options.php:2182
+msgid "Footer Margin"
+msgstr "هامش ‫الفوتر"
+
+#: framework/admin/options.php:1673 framework/admin/options.php:1777
+#: framework/admin/options.php:1874 framework/admin/options.php:1979
+#: framework/admin/options.php:2082 framework/admin/options.php:2183
+msgid "Please, Enter margin."
+msgstr "من فضلك ، أدخل الهامش."
+
+#: framework/admin/options.php:1688 framework/admin/options.php:1889
+#: framework/admin/options.php:2097 framework/admin/options.php:2198
+msgid "Footer Padding"
+msgstr "المسافة الداخلية ‫للفوتر"
+
+#: framework/admin/options.php:1689 framework/admin/options.php:1793
+#: framework/admin/options.php:1890 framework/admin/options.php:1995
+#: framework/admin/options.php:2098 framework/admin/options.php:2199
+msgid "Please, Enter padding."
+msgstr "‫من فضلك ، أدخل ‫المسافة الداخلية ‫للفوتر."
+
+#: framework/admin/options.php:1704 framework/admin/options.php:1808
+#: framework/admin/options.php:1905 framework/admin/options.php:2010
+#: framework/admin/options.php:2113 framework/admin/options.php:2214
+msgid "Footer Background"
+msgstr ""
+"خلفية ‫الفوتر‬‬‬\n"
+"‫‫‫"
+
+#: framework/admin/options.php:1705 framework/admin/options.php:1809
+#: framework/admin/options.php:1906 framework/admin/options.php:2011
+#: framework/admin/options.php:2114 framework/admin/options.php:2215
+#: framework/admin/options.php:2319 framework/admin/options.php:2437
+#: framework/admin/options.php:2672 framework/admin/options.php:2696
+msgid "background with image, color, etc."
+msgstr "الخلفية مع الصورة ، اللون ، الخ."
+
+#: framework/admin/options.php:1714 framework/admin/options.php:1818
+#: framework/admin/options.php:1915 framework/admin/options.php:2020
+#: framework/admin/options.php:2120 framework/admin/options.php:2224
+msgid "Font Options title"
+msgstr "خيارات خط العنوان‬"
+
+#: framework/admin/options.php:1755 framework/admin/options.php:1956
+#: framework/admin/options.php:2060 framework/admin/options.php:2161
+#: framework/admin/options.php:2265
+msgid "footer fixed"
+msgstr ""
+"فوتر‬ ثابت‬\n"
+"‫‫"
+
+#: framework/admin/options.php:1756 framework/admin/options.php:1957
+#: framework/admin/options.php:2061 framework/admin/options.php:2162
+#: framework/admin/options.php:2266
+msgid "Enable/Disable footer fixed."
+msgstr "تمكين / تعطيل ‫فوتر ثابت."
+
+#: framework/admin/options.php:1762 framework/admin/options.php:1858
+#: framework/admin/options.php:1963 framework/admin/options.php:2067
+#: framework/admin/options.php:2168 framework/admin/options.php:2272
+msgid "Back To Top"
+msgstr ""
+"العودة إلى الأعلى‬\n"
+"‫"
+
+#: framework/admin/options.php:1763 framework/admin/options.php:1859
+#: framework/admin/options.php:1964 framework/admin/options.php:2068
+#: framework/admin/options.php:2169 framework/admin/options.php:2273
+msgid "Enable/Disable back to top."
+msgstr "‫تمكين / تعطيل ‫العودة إلى الأعلى."
+
+#: framework/admin/options.php:1769
+msgid "Footer V2"
+msgstr "‫الفوتر V2"
+
+#: framework/admin/options.php:1792 framework/admin/options.php:1994
+msgid "Footer Columns Padding"
+msgstr "‫المسافة الداخلية ‫للفوتر"
+
+#: framework/admin/options.php:1867
+msgid "Footer V3"
+msgstr "‫‫الفوتر V3"
+
+#: framework/admin/options.php:1972
+msgid "Footer V4"
+msgstr "‫‫الفوتر V4"
+
+#: framework/admin/options.php:2075
+msgid "Footer V5"
+msgstr "‫‫الفوتر V5"
+
+#: framework/admin/options.php:2176
+msgid "Footer V6"
+msgstr "‫‫الفوتر V6"
+
+#: framework/admin/options.php:2282
+msgid "Title Bar"
+msgstr "شريط العنوان"
+
+#: framework/admin/options.php:2289
+msgid "pagetitle Layout"
+msgstr "تخطيط عنوان الصفحة"
+
+#: framework/admin/options.php:2290
+msgid "Select pagetitle layout in your site."
+msgstr "حدد تخطيط عنوان الصفحة في موقعك."
+
+#: framework/admin/options.php:2333
+msgid "Show page title"
+msgstr "إظهار عنوان الصفحة‬"
+
+#: framework/admin/options.php:2334
+msgid "Show or not show page title."
+msgstr "إظهار أو عدم إظهار عنوان الصفحة."
+
+#: framework/admin/options.php:2340
+msgid "Show page breadcrumb"
+msgstr "عرض عنوان الصفحة التفصيلي"
+
+#: framework/admin/options.php:2341
+msgid "Show or not show page breadcrumb."
+msgstr "‫إظهار أو عدم إظهار  عنوان الصفحة التفصيلى."
+
+#: framework/admin/options.php:2347
+msgid "Title Bar Heading"
+msgstr "شريط العنوان‬"
+
+#: framework/admin/options.php:2367
+msgid "Title Bar Path"
+msgstr "مسار شريط العنوان‬"
+
+#: framework/admin/options.php:2387
+msgid "Sub Text"
+msgstr "النص الفرعي‬"
+
+#: framework/admin/options.php:2388
+msgid "Please, Enter sub text of title bar."
+msgstr "من فضلك ، أدخل النص الفرعي لشريط العنوان."
+
+#: framework/admin/options.php:2394
+msgid "Sub Text Format"
+msgstr "تنسيق النص الفرعي‬"
+
+#: framework/admin/options.php:2414
+msgid "Delimiter"
+msgstr "محدد"
+
+#: framework/admin/options.php:2415
+msgid "Please, Enter Delimiter of page breadcrumb in title bar."
+msgstr "من فضلك ، أدخل محدد الصفحات للعنوان التفصيلى في شريط العنوان."
+
+#: framework/admin/options.php:2422
+msgid "Post"
+msgstr "مقال"
+
+#: framework/admin/options.php:2429
+msgid "Show Archive Title Bar"
+msgstr "إظهار شريط عنوان الأرشيف‬"
+
+#: framework/admin/options.php:2430
+msgid "show or not post title on your archive blog."
+msgstr "إظهار أو عدم نشر عنوان أرشيف المدونة ."
+
+#: framework/admin/options.php:2436
+msgid "Archive Titlebar Background"
+msgstr "الخلفية شريط العنوان للأرشيف"
+
+#: framework/admin/options.php:2453
+msgid "Blog"
+msgstr "مدونة"
+
+#: framework/admin/options.php:2458
+msgid "Single Post"
+msgstr "صفحة المقال"
+
+#: framework/admin/options.php:2465 framework/admin/options.php:2565
+#: framework/admin/options.php:2595
+msgid "Select Layout"
+msgstr "حدد تخطيط‬"
+
+#: framework/admin/options.php:2466
+msgid "Select layout of single blog."
+msgstr "حدد تخطيط ‫صفحة المقال."
+
+#: framework/admin/options.php:2486
+msgid "Select header Layout"
+msgstr "حدد تخطيط الهيدر‬"
+
+#: framework/admin/options.php:2487
+msgid "Select header layout of single blog."
+msgstr "حدد تخطيط هيدر صفحة المقال."
+
+#: framework/admin/options.php:2503
+msgid "Post Meta in post detail page"
+msgstr "نشر التعريف في صفحة تفاصيل المقال"
+
+#: framework/admin/options.php:2506 framework/admin/options.php:2619
+msgid "Author"
+msgstr "مؤلف"
+
+#: framework/admin/options.php:2507
+msgid "Comment"
+msgstr "تعليق"
+
+#: framework/admin/options.php:2508 framework/admin/options.php:2620
+msgid "Date"
+msgstr "تاريخ"
+
+#: framework/admin/options.php:2509 framework/admin/options.php:2621
+msgid "Like"
+msgstr "لايك"
+
+#: framework/admin/options.php:2510 framework/admin/options.php:2622
+msgid "Categories"
+msgstr "الاقسام"
+
+#: framework/admin/options.php:2511
+msgid "Tags"
+msgstr "الوسوم"
+
+#: framework/admin/options.php:2512 framework/admin/options.php:2623
+msgid "View"
+msgstr "معاينة"
+
+#: framework/admin/options.php:2519
+msgid "Post Share Links position"
+msgstr "روابط المشاركة للموقع"
+
+#: framework/admin/options.php:2522
+msgid "Sticky"
+msgstr "ثابت"
+
+#: framework/admin/options.php:2523
+msgid "Basic"
+msgstr "أساسي"
+
+#: framework/admin/options.php:2530 framework/admin/options.php:2631
+msgid "Show Navigation"
+msgstr "اظهار القايمة"
+
+#: framework/admin/options.php:2531
+msgid "Show or not post navigation on your single blog."
+msgstr "إظهار تنقل المقالات في صفحة المقال."
+
+#: framework/admin/options.php:2537
+msgid "Show Author"
+msgstr "عرض المؤلف‬"
+
+#: framework/admin/options.php:2538
+msgid "Show or not post author on your single blog."
+msgstr "إظهار أو عدم نشر المؤلف في صفحة المقال."
+
+#: framework/admin/options.php:2544 framework/admin/options.php:2638
+msgid "Show Related Post"
+msgstr "عرض مقال ذات الصلة‬"
+
+#: framework/admin/options.php:2545
+msgid "Show or not related post on your single blog."
+msgstr "‫إظهار أو عدم المقالات ذات الصلة في صفحة المقال."
+
+#: framework/admin/options.php:2551
+msgid "Show Comment"
+msgstr "عرض التعليق‬"
+
+#: framework/admin/options.php:2552
+msgid "Show or not post comment on your single blog."
+msgstr "إظهار أو عدم نشر تعليق صفحة المقال."
+
+#: framework/admin/options.php:2558
+msgid "Archive Post"
+msgstr "أرشيف المقالات‬"
+
+#: framework/admin/options.php:2566
+msgid "Select layout of blog."
+msgstr "حدد تخطيط المدونة."
+
+#: framework/admin/options.php:2587
+msgid "Portfolio"
+msgstr "حقيبة الاعمال"
+
+#: framework/admin/options.php:2596
+msgid "Select layout of portfolio."
+msgstr "حدد تخطيط ‫حقيبة الاعمال."
+
+#: framework/admin/options.php:2616
+msgid "Post Meta in portfolio page"
+msgstr "نشر التعريف في صفحة الاعمال"
+
+#: framework/admin/options.php:2624
+msgid "Share"
+msgstr "شارك"
+
+#: framework/admin/options.php:2632
+msgid "Show or not post navigation on your single portfolio."
+msgstr "إظهار أو عدم نشر التنقل ‫حقيبة الاعمال."
+
+#: framework/admin/options.php:2639
+msgid "Show or not related post on your portfolio page."
+msgstr "إظهار أو عدم نشر المقالات المتعلقة بحقيبة الاعمال."
+
+#: framework/admin/options.php:2658
+msgid "Padding"
+msgstr "المسافة الداخلية"
+
+#: framework/admin/options.php:2659
+msgid "Please, Enter padding of pages."
+msgstr "من فضلك ، أدخل ‫المسافة الداخلية للصفحات."
+
+#: framework/admin/options.php:2681
+msgid "Show Page Comment"
+msgstr "إظهار تعليق الصفحة"
+
+#: framework/admin/options.php:2682
+msgid "Show or not page comment on your page."
+msgstr "إظهار أو لا تعليق الصفحة على صفحتك."
+
+#: framework/admin/options.php:2688
+msgid "404 Page"
+msgstr "٤٠٤ صفحة"
+
+#: framework/admin/options.php:2710
+msgid "Title"
+msgstr "العنوان"
+
+#: framework/admin/options.php:2717
+msgid "Heading"
+msgstr "عنوان رئيسى"
+
+#: framework/admin/options.php:2724
+msgid "Content"
+msgstr "محتوى"
+
+#: framework/admin/options.php:2732
+msgid "Switch on to display the \"back to home\" button."
+msgstr "قم بتشغيله لعرض زر “العودة إلى المنزل”."
+
+#: framework/admin/options.php:2734
+msgid "On"
+msgstr "نعم"
+
+#: framework/admin/options.php:2735
+msgid "Off"
+msgstr "لا"
+
+#: framework/admin/options.php:2742
+msgid "Button Title"
+msgstr "عنوان الزر"
+
+#: framework/admin/options.php:2763
+msgid "Facebook URL"
+msgstr "رابط الفيسبوك"
+
+#: framework/admin/options.php:2764
+msgid "Your Facebook URL"
+msgstr "‫رابط الفيسبوك"
+
+#: framework/admin/options.php:2769
+msgid "Twitter URL"
+msgstr "‫رابط تويتر"
+
+#: framework/admin/options.php:2770
+msgid "Your Twitter URL"
+msgstr "‫رابط تويتر"
+
+#: framework/admin/options.php:2775
+msgid "Linkedin URL"
+msgstr "‫رابط ينكدان"
+
+#: framework/admin/options.php:2776
+msgid "Your Linkedin URL"
+msgstr "‫رابط لينكدان"
+
+#: framework/admin/options.php:2781
+msgid "Youtube URL"
+msgstr "‫رابط يوتيوب"
+
+#: framework/admin/options.php:2782
+msgid "Your Youtube URL"
+msgstr "‫رابط يوتيوب"
+
+#: framework/admin/options.php:2787
+msgid "Instagram URL"
+msgstr "‫رابط إينستاجرام"
+
+#: framework/admin/options.php:2788
+msgid "Your Instagram URL"
+msgstr "‫رابط إينستاجرام"
+
+#: framework/admin/options.php:2793
+msgid "Pinterest URL"
+msgstr "‫رابط بينتيريست"
+
+#: framework/admin/options.php:2794
+msgid "Your Pinterest URL"
+msgstr "‫رابط بينتيريست"
+
+#: framework/admin/options.php:2799
+msgid "Dribbble URL"
+msgstr "‫رابط دريبل"
+
+#: framework/admin/options.php:2800
+msgid "Your Dribbble URL"
+msgstr "‫رابط دريبل"
+
+#: framework/admin/options.php:2805
+msgid "Deviantart URL"
+msgstr "‫رابط دفينتارت"
+
+#: framework/admin/options.php:2806
+msgid "Your Deviantart URL"
+msgstr "‫رابط دفينتارت"
+
+#: framework/admin/options.php:2811
+msgid "Flickr URL"
+msgstr "‫رابط فليكر"
+
+#: framework/admin/options.php:2812
+msgid "Your Flickr URL"
+msgstr "‫رابط فليكر"
+
+#: framework/admin/options.php:2817
+msgid "RSS URL"
+msgstr "‫رابط RSS"
+
+#: framework/admin/options.php:2818
+msgid "Your RSS URL"
+msgstr "‫رابط RSS"
+
+#: framework/admin/options.php:2823
+msgid "Tumblr URL"
+msgstr "‫رابط تمبلر"
+
+#: framework/admin/options.php:2824
+msgid "Your Tumblr URL"
+msgstr "‫رابط تمبلر"
+
+#: framework/admin/options.php:2829
+msgid "Vimeo URL"
+msgstr "‫رابط فيميو"
+
+#: framework/admin/options.php:2830
+msgid "Your Vimeo URL"
+msgstr "‫رابط فيميو"
+
+#: framework/admin/options.php:2835
+msgid "Skype URL"
+msgstr "‫رابط سكايب"
+
+#: framework/admin/options.php:2836
+msgid "Your Skype URL"
+msgstr "‫رابط سكايب"
+
+#: framework/admin/options.php:2841
+msgid "Soundcloud URL"
+msgstr "‫رابط ساوند كلاود"
+
+#: framework/admin/options.php:2842
+msgid "Your Soundcloud URL"
+msgstr "‫رابط ساوند كلاود"
+
+#: framework/admin/options.php:2847
+msgid "Behance URL"
+msgstr "‫رابط بيهانس"
+
+#: framework/admin/options.php:2848
+msgid "Your Behance URL"
+msgstr "‫رابط بيهانس"
+
+#: framework/admin/options.php:2853
+msgid "Tripadvisor URL"
+msgstr "‫رابط تربادفايزر"
+
+#: framework/admin/options.php:2854
+msgid "Your Tripadvisor URL"
+msgstr "‫رابط تربادفايز"
+
+#: framework/admin/options.php:2960
+msgid "Section via hook"
+msgstr "قسم عن طريق مسار‬"
+
+#: framework/admin/options.php:2961
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+"‫<p class=“description”> هذا قسم تم إنشاؤه عن طريق إضافة عامل تصفية إلى "
+"مجموعة المقاطع. يمكن استخدامها بواسطة السمات الفرعية لإضافة / إزالة أقسام من "
+"الخيارات.</p>‬"
+
+#: framework/admin/tgm-plugin-activation/plugin-options.php:98
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "مطلوب تثبيت الإضافات"
+
+#: framework/admin/tgm-plugin-activation/plugin-options.php:99
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "تثبيت الإضافات‬"
+
+#: framework/admin/tgm-plugin-activation/plugin-options.php:100
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "‫‫تثبيت الإضافات : %s"
+
+#: framework/admin/tgm-plugin-activation/plugin-options.php:101
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "حدث خطأ مع API."
+
+#: framework/admin/tgm-plugin-activation/plugin-options.php:102
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: framework/admin/tgm-plugin-activation/plugin-options.php:103
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: framework/admin/tgm-plugin-activation/plugin-options.php:104
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: framework/admin/tgm-plugin-activation/plugin-options.php:105
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: framework/admin/tgm-plugin-activation/plugin-options.php:106
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: framework/admin/tgm-plugin-activation/plugin-options.php:107
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: framework/admin/tgm-plugin-activation/plugin-options.php:108
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: framework/admin/tgm-plugin-activation/plugin-options.php:109
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: framework/admin/tgm-plugin-activation/plugin-options.php:110
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "‫‫‫بدء تثبيت الإضافة"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: framework/admin/tgm-plugin-activation/plugin-options.php:111
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "تنشيط الإضافة المثبته"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: framework/admin/tgm-plugin-activation/plugin-options.php:112
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "ارجع الى مثبت الاضافات المطلوب"
+
+#: framework/admin/tgm-plugin-activation/plugin-options.php:113
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:394
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr "تم تفعيل الاضافة بنجاح."
+
+#: framework/admin/tgm-plugin-activation/plugin-options.php:114
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "تم تثبيت جميع الإضافات وتفعيلها بنجاح. %s‬"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "تحديث الاضافة: %s"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "بدء تحديث الإضافة"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "بدء تفعيل الاضافة"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:393
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:912
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2618
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr "العودة إلى لوحة التحكم الرئيسية"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "تم تنشيط الاضافة التالي بنجاح:"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "لم يتم اتخاذ أي إجراء. الاضافة %1$s نشط بالفعل."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"الاضافة غير مفعل. هناك حاجة إلى إصدار أعلى من %s لهذا القالب. يرجى تحديث "
+"الاضافة."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "تم تثبيت جميع الإضافات وتفعيلها بنجاح. %1$s‬"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "تجاهل هذا الإشعار"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"هناك واحد أو أكثر من الإضافات المطلوبة أو الموصى بها للتثبيت أو تحديث أو "
+"تنشيط."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "يرجى الاتصال بمسؤول هذا الموقع للحصول على المساعدة."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "يجب تحديث هذا البرنامج المساعد ليكون متوافقًا مع القالب."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "مطلوب التحديث"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr "لا تحتوي حزمة الاضافة على مجلد يالاسم المرغوب ولم تنجح إعادة التسمية."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:1019
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"يرجى الاتصال بمزود الاضافة واطلب منهم أن يحزموا الاضافة الخاص بهم وفقًا "
+"لإرشادات ‬ ووردبريس."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"تتكون حزمة الاضافة من أكثر من ملف واحد ، ولكن لا يتم حزم الملفات في مجلد."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:1206
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "و"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr "‫TGMPA v%s"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr "مطلوب"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr "موصى به"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr "مستودع ووردبريس‬"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr "مصدر خارجي"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr "قبل تعبئتها‬"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr "غير مثبت"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr "تم تثبيته ولكن غير نشط"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr "نشيط"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr "التحديث المطلوب غير متوفر‬"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr "يتطلب التحديث"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr "تحديث الموصى بها‬"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "‫%1$s, %2$s"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "غير معروف"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr "الإصدار المثبت:"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr "الحد الأدنى للإصدار المطلوب:"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr "الإصدار المتاح:"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr "لا إضافات لتثبيت أو تحديث أو تفعيل."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr "إضافة"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr "مصدر"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr "نوع"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr "الإصدار"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr "الحالة"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr "التثبت %2$s"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr "تحديث %2$s"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr "تفعيل %2$s"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr "ترقية الرسالة من مؤلف ‫الإضافة:"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr "التثبت"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr "تحديث"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr "تفعيل"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "لم يتم اختيار ‫إضافة ليتم تثبيتها. لم يتم اتخاذ أي إجراء."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "لم يتم اختيار الإضافات ليتم تحديثها. لم يتم اتخاذ أي إجراء."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr "لا توجد إضافات متاحة للتثبيت في هذا الوقت."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr "لا توجد إضافات متاحة ليتم تحديثها في هذا الوقت."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "لم يتم اختيار إضافات لتفعيلها. لم يتم اتخاذ أي إجراء."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr "لا توجد إضافات متاحة لتفعيلها في هذا الوقت."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr "فشل تنشيط الإضافات."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "تحديث الإضافات %1$s (%2$d/%3$d)"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "حدث خطأ أثناء تثبيت %1$s: <strong>%2$s</strong>."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "‫التثبيت %1$s فشل."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"بدأت عملية التثبيت والتفعيل. قد تستغرق هذه العملية بعض الوقت على بعض "
+"المضيفين ، لذا يرجى التحلي بالصبر."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "‫%1$s تم التثبيت بنجاح."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3594
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr "اظهر التفاصيل"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3594
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr "أخفى التفاصيل"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr "وقد تم الانتهاء من جميع المنشآت والتنشيط."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "تثبيت و تنشيط الاضافة %1$s (%2$d/%3$d)"
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"بدأت عملية التثبيت. قد تستغرق هذه العملية بعض الوقت على بعض المضيفين ، لذا "
+"يرجى التحلي بالصبر."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "‫%1$s تم التثبيت بنجاح."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr "تم الانتهاء من جميع التثبيتات."
+
+#: framework/admin/tgm-plugin-activation/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "تثبيت اضافة %1$s (%2$d/%3$d)"
+
+#: framework/shortcodes/portfolio_carousel/portfolio_carousel.php:109
+#: framework/shortcodes/blog_carousel/blog_carousel.php:71
+#: framework/shortcodes/product_carousel/product_carousel.php:126
+msgid "Post not found!"
+msgstr "لا يوجد مقال!"
+
+#: framework/shortcodes/product_carousel/tpl1.php:5
+#: framework/shortcodes/product_grid/tpl1.php:6
+msgid "Sale!"
+msgstr "تخفيض!"
+
+#: framework/shortcodes/image_carousel/image_carousel.php:45
+#: framework/shortcodes/image_carousel/image_carousel.php:48
+#: framework/shortcodes/image_carousel/image_carousel.php:51
+#: framework/templates/post-functions.php:62
+#: framework/templates/post-functions.php:80
+msgid "image"
+msgstr "صورة"
+
+#: framework/headers/header-v2.php:38 framework/headers/header-v5.php:40
+#: framework/headers/header-v7.php:42 framework/headers/header-v6.php:47
+msgid "search"
+msgstr "البحث"
+
+#: framework/headers/header-v2.php:48 framework/headers/header-v4.php:23
+#: framework/headers/header-v5.php:51 framework/headers/header-v7.php:53
+#: framework/headers/header-v6.php:57
+msgid "cart"
+msgstr "سلة التسوق"
+
+#: framework/headers/header-v2.php:53 framework/headers/header-v4.php:28
+#: framework/headers/header-v5.php:56 framework/headers/header-v7.php:58
+#: framework/headers/header-v6.php:62
+msgid "My Shoping Cart"
+msgstr "سلة التسوق"
+
+#: framework/headers/header-v3.php:48 framework/headers/header-v1.php:29
+#: framework/headers/header-v4.php:44
+msgid "Menu"
+msgstr "القائمة"
+
+#: framework/headers/header-v6.php:20
+msgid "Tell me more"
+msgstr "المزيد"
+
+#: framework/templates/post-functions.php:60
+msgid "PREVIOUS POST"
+msgstr "المقال السابق"
+
+#: framework/templates/post-functions.php:78
+msgid "NEXT POST"
+msgstr "المقال القادم‬"
+
+#: framework/templates/post-functions.php:181
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك ينتظر الموافقة عليه."
+
+#: framework/templates/entry-none.php:3
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"مستعد لنشر أول مقالاتك‬\n"
+"‏‫? <a href=“%1$s”>ابدأ هنا‬\n"
+"‏‫</a>."
+
+#: framework/templates/entry-none.php:5 framework/templates/entry-none.php:9
+msgid "Nothing Found"
+msgstr "لم يتم العثور على شيء"
+
+#: framework/templates/entry-none.php:6
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords"
+msgstr ""
+"آسف ، ولكن لا شيء يطابق مصطلحات البحث الخاصة بك. أرجو المحاولة مرة أخرى "
+"بإستخدام كلمات أخرى"
+
+#: framework/templates/entry-none.php:10
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"يبدو أننا يمكن &rsquo;أن نجد&rsquo; ما تبحث عنه. ربما يمكن أن يساعد البحث."
+
+#: framework/templates/blog_single_basic/entry-link.php:21
+#: framework/templates/blog_single_basic/entry-gallery.php:22
+#: framework/templates/blog_single_basic/entry.php:18
+#: framework/templates/blog_single_basic/entry-video.php:19
+#: framework/templates/blog_single_basic/entry-audio.php:23
+#: framework/templates/blog_single_basic/entry-quote.php:18
+#: framework/templates/blog_single/entry-link.php:22
+#: framework/templates/blog_single/entry-gallery.php:40
+#: framework/templates/blog_single/entry.php:19
+#: framework/templates/blog_single/entry-video.php:25
+#: framework/templates/blog_single/entry-audio.php:25
+#: framework/templates/blog_single/entry-quote.php:19
+msgid " Comment"
+msgstr " تعليق"
+
+#: framework/megamenu/mega-menu.php:104
+#, php-format
+msgid "%s (Invalid)"
+msgstr "‫%s (غير صالح)"
+
+#: framework/megamenu/mega-menu.php:108
+#, php-format
+msgid "%s (Pending)"
+msgstr "‫%s (قيد الانتظار)"
+
+#: framework/megamenu/mega-menu.php:130
+msgid "Move up"
+msgstr "تحريك لأعلى"
+
+#: framework/megamenu/mega-menu.php:143
+msgid "Move down"
+msgstr "تحرك لأسفل"
+
+#: framework/megamenu/mega-menu.php:145 framework/megamenu/mega-menu.php:147
+msgid "Edit Menu Item"
+msgstr "تعديل عنصر القائمة‬"
+
+#: framework/megamenu/mega-menu.php:155
+msgid "URL"
+msgstr "روابط"
+
+#: framework/megamenu/mega-menu.php:162
+msgid "Navigation Label"
+msgstr "اسم القائمة"
+
+#: framework/megamenu/mega-menu.php:168
+msgid "Title Attribute"
+msgstr "العنوان‬"
+
+#: framework/megamenu/mega-menu.php:175
+msgid "Open link in a new window/tab"
+msgstr "افتح الرابط في نافذة / تبويب جديد‬"
+
+#: framework/megamenu/mega-menu.php:180
+msgid "CSS Classes (optional)"
+msgstr "فئات CSS (اختياري)‬"
+
+#: framework/megamenu/mega-menu.php:186
+msgid "Link Relationship (XFN)"
+msgstr "علاقة الارتباط (XFN)"
+
+#: framework/megamenu/mega-menu.php:192
+msgid "Description"
+msgstr "وصف"
+
+#: framework/megamenu/mega-menu.php:194
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr "سيتم عرض الوصف في القائمة إذا كان الثيم الحالي يدعمه."
+
+#: framework/megamenu/mega-menu.php:210
+msgid "Standard Dropdown"
+msgstr "قياسية‬"
+
+#: framework/megamenu/mega-menu.php:211
+msgid "2 columns Dropdown"
+msgstr "عمودين"
+
+#: framework/megamenu/mega-menu.php:212
+msgid "3 columns Dropdown"
+msgstr "‫٣ أعمدة"
+
+#: framework/megamenu/mega-menu.php:213
+msgid "4 columns Dropdown"
+msgstr "٤ أعمدة"
+
+#: framework/megamenu/mega-menu.php:226
+msgid "Alignleft Dropdown"
+msgstr "محاذاة اليسار‬"
+
+#: framework/megamenu/mega-menu.php:227
+msgid "Alignright Dropdown"
+msgstr "محاذاة اليمين‬"
+
+#: framework/megamenu/mega-menu.php:228
+msgid "Aligncenter Dropdown"
+msgstr "محاذاة الوسط‬"
+
+#: framework/megamenu/mega-menu.php:229
+msgid "Fullwidth Dropdown"
+msgstr "العرض كامل‬"
+
+#: framework/megamenu/mega-menu.php:246
+msgid "Select Widget Area"
+msgstr "اختر منطقة الودجات"
+
+#: framework/megamenu/mega-menu.php:265
+msgid "No"
+msgstr "لا"
+
+#: framework/megamenu/mega-menu.php:266
+msgid "Yes"
+msgstr "نعم"
+
+#: framework/megamenu/mega-menu.php:293
+msgid "Browse Image"
+msgstr "أضف صورة"
+
+#: framework/megamenu/mega-menu.php:372
+#, php-format
+msgid "Original: %s"
+msgstr "أصلي : %s"
+
+#: framework/megamenu/mega-menu.php:385
+msgid "Remove"
+msgstr "حذف"
+
+#: framework/megamenu/mega-menu.php:386
+msgid "Cancel"
+msgstr "إلغاء"
