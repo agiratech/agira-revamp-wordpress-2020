@@ -22,13 +22,13 @@
 /** The name of the database for WordPress */
 define('WP_CACHE', true);
 define( 'WPCACHEHOME', '/var/www/wordpress/wp-content/plugins/wp-super-cache/' );
-define( 'DB_NAME', 'wordpress' );
+define( 'DB_NAME', 'agira_corp_db' );
 
 /** MySQL database username */
-define( 'DB_USER', 'admin' );
+define( 'DB_USER', 'agira_corp_usr' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'admin@123' );
+define( 'DB_PASSWORD', '@}#$Agr@123#%$' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
@@ -58,7 +58,7 @@ define( 'AUTH_SALT',        'put your unique phrase here' );
 define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
 define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
 define( 'NONCE_SALT',       'put your unique phrase here' );
-
+/*define('DISALLOW_FILE_MODS',true);*/
 /**#@-*/
 
 /**

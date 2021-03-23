@@ -111,8 +111,7 @@ $cl_content ='col-xs-12 col-sm-12 col-md-12 col-lg-12';
 		    <?php if ( $tb_post_header_layout == 'basic' ) {?></div><?php }?>
 		 <?php } ?>
 	    <!-- End Right Sidebar -->
-	 <?php endwhile; ?>
-			 
+	 <?php endwhile; ?> 
     </div><!-- End container -->
   </div><!-- End mo-media -->
 </div><!-- End main-content -->

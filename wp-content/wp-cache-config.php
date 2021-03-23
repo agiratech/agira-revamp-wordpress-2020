@@ -58,7 +58,7 @@ $wp_super_cache_advanced_debug = 0;
 $wp_super_cache_front_page_text = '';
 $wp_super_cache_front_page_clear = 0;
 $wp_super_cache_front_page_check = 0;
-$wp_super_cache_front_page_notification = '0';
+$wp_super_cache_front_page_notification = 0;
 
 $wp_cache_anon_only = 0;
 $wp_supercache_cache_list = 0;
@@ -95,7 +95,7 @@ $wp_cache_no_cache_for_get = 0;
 $cache_scheduled_time = "00:00";
 $wp_cache_preload_interval = 600;
 $cache_schedule_type = 'interval';
-$wp_cache_preload_posts = 0;
+$wp_cache_preload_posts = 'all';
 $wp_cache_preload_on = 0;
 $wp_cache_preload_taxonomies = 0;
 $wp_cache_preload_email_me = 0;
