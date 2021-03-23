@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SSA//Simply Schedule Appointments 1.4.3.4//EN
+CALSCALE:GREGORIAN
+X-ORIGINAL-URL:https://staging2020.agiratech.com/
+X-WR-CALDESC:Appointments from AgiraTechnologies
+TRANSP:OPAQUE
+BEGIN:VEVENT
+UID:ssa_1customer
+DTSTAMP:20210302T065047Z
+LOCATION:
+DESCRIPTION:\nCancel/Reschedule link: \nhttps://staging2020.agiratech.com/appointments/change/9731d5c259f9e1c61b5b1bb2827680141 \n
+URL;VALUE=URI:
+SUMMARY:Schedule a Call (AgiraTechnologies)
+DTSTART:20210305T093000Z
+DTEND:20210305T100000Z
+END:VEVENT
+END:VCALENDAR

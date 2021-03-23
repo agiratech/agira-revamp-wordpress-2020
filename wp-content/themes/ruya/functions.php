@@ -150,6 +150,8 @@ if (!function_exists('ruya_RegisterSidebars')) {
 	}
 }
 add_action( 'widgets_init', 'ruya_RegisterSidebars' );
+
+
 /*-----------------------------------------------*
 WooCommerce
 /*-----------------------------------------------*/

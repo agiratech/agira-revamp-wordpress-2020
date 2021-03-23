@@ -10,6 +10,7 @@
 	if ( ! ( function_exists('has_site_icon') && has_site_icon() ) ) { ?>
 			<link rel="shortcut icon" href="<?php $favicon=$ruya_options["favicon"]; echo esc_url($favicon['url']); ?>" type="image/x-icon">
 	<?php } wp_head(); ?>
+	
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
