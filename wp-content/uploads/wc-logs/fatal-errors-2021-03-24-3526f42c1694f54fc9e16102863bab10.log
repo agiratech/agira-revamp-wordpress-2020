@@ -1,0 +1,8 @@
+2021-03-24T08:33:50+00:00 CRITICAL Uncaught wfWAFStorageFileConfigException: Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/xampp/htdocs/Agira-Prod/agira-revamp-wordpress-2020/wp-content/wflogs/config.php in C:\xampp\htdocs\Agira-Prod\agira-revamp-wordpress-2020\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php:631
+Stack trace:
+#0 C:\xampp\htdocs\Agira-Prod\agira-revamp-wordpress-2020\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php(564): wfWAFStorageFile->fetchConfigData('')
+#1 C:\xampp\htdocs\Agira-Prod\agira-revamp-wordpress-2020\wp-content\plugins\wordfence\lib\wordfenceClass.php(7934): wfWAFStorageFile->getConfig('attackDataKey', false)
+#2 C:\xampp\htdocs\Agira-Prod\agira-revamp-wordpress-2020\wp-includes\class-wp-hook.php(287): wordfence::processAttackData()
+#3 C:\xampp\htdocs\Agira-Prod\agira-revamp-wordpress-2020\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\Agira-Prod\agira- in C:\xampp\htdocs\Agira-Prod\agira-revamp-wordpress-2020\wp-content\plugins\wordfence\vendor\wordfence\wf-waf\src\lib\storage\file.php on line 631
+
