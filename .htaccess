@@ -1,7 +1,13 @@
 php_value upload_max_filesize 128M
 php_value post_max_size 128M
 php_value max_execution_time 300
-php_value max_input_time 300              
+php_value max_input_time 300  
+
+Options All -Indexes
+
+<Files *.html>
+deny from all
+</Files>
 
 # BEGIN WordPress
 # The directives (lines) between "BEGIN WordPress" and "END WordPress" are
@@ -25,5 +31,15 @@ AddOutputFilterByType DEFLATE application/xhtml+xml
 AddOutputFilterByType DEFLATE application/rss+xml
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
+<IfModule mod_headers.c>
+	Header always append X-Frame-Options SAMEORIGIN
+	Header set Strict-Transport-Security "max-age=31536000" env=HTTPS
+	Header set X-XSS-Protection "1; mode=block"
+	Header set X-Content-Type-Options nosniff
+</IfModule>
+<IfModule headers_module>
+        RequestHeader set X-HTTPS 1
+        Header set Referrer-Policy "no-referrer-when-downgrade"
 </IfModule>
 # END WordPress
