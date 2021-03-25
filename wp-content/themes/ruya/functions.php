@@ -150,6 +150,40 @@ if (!function_exists('ruya_RegisterSidebars')) {
 	}
 }
 add_action( 'widgets_init', 'ruya_RegisterSidebars' );
+
+
+add_filter('auth_cookie_expiration', 'my_expiration_filter', 99, 3);
+function my_expiration_filter($seconds, $user_id, $remember){
+//if "remember me" is checked;
+$expiration = 60*60; //UPDATE HERE;
+//http://en.wikipedia.org/wiki/Year_2038_problem
+if ( PHP_INT_MAX - time() < $expiration ) {
+//Fix to a little bit earlier!
+$expiration = PHP_INT_MAX - time() - 5;
+}
+return $expiration;
+}
+function my_login_logo() { ?>
+    <style type="text/css">
+        #login h1 a, .login h1 a {
+            background-image: url(<?php echo home_url(); ?>/wp-content/uploads/2021/03/a-logo.png);
+		height:65px;
+		width:320px;
+		background-repeat: no-repeat;
+        	padding-bottom: 30px;
+        }
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'my_login_logo' );
+function my_login_logo_url() {
+    return home_url();
+}
+add_filter( 'login_headerurl', 'my_login_logo_url' );
+
+function my_login_logo_url_title() {
+    return 'Agira Technologies';
+}
+add_filter( 'login_headertitle', 'my_login_logo_url_title' );
 /*-----------------------------------------------*
 WooCommerce
 /*-----------------------------------------------*/
