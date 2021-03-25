@@ -7,7 +7,7 @@ See wp-cache.php for author details.
 
 $wp_cache_debug_username = 'ed3ebc3fee039816304ee7c5164186cd';
 $wp_cache_mobile_groups = '';
-$wp_cache_home_path = '/';
+$wp_cache_home_path = '/Agira-Production/agira-revamp-wordpress-2020/';
 $wp_cache_slash_check = 1;
 $cache_page_secret = '53333a13c8f078c50e12dea967db5529';
 $cache_time_interval = 600;
