@@ -14,9 +14,9 @@ Register Default Fonts
 /*-----------------------------------------------*/
 function ruya_fonts_url() {
     $font_url = '';
-    if ( 'off' !== _x( 'on', 'Google font: on or off', 'ruya' ) ) {
+    /*if ( 'off' !== _x( 'on', 'Google font: on or off', 'ruya' ) ) {
         $font_url = add_query_arg( 'family', urlencode( 'Roboto:400,500,600,700|Nunito Sans|Noto Sans TC|Nunito|Muli|Hind|Cabin|Lato|Poppins|Cookie|karla|Oswald|Playfair Display|Alegreya Sans|Changa|Open Sans:400,500,600,700' ), "//fonts.googleapis.com/css" );
-    }
+    }*/
     return $font_url;
 }
 /*-----------------------------------------------*
@@ -39,6 +39,8 @@ function ruya_enqueue_scripts() {
 	if ( is_singular() && comments_open() && get_option('thread_comments') ){
 		wp_enqueue_script( 'comment-reply' );
 	}
+	wp_register_style( 'Font_Awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css' );
+    wp_enqueue_style('Font_Awesome');
 }
 add_action( 'wp_enqueue_scripts', 'ruya_enqueue_scripts' );
 
@@ -190,4 +192,6 @@ WooCommerce
 if (class_exists('Woocommerce')) {
    require_once RUYA_ABS_PATH.'/woocommerce/wc-template-function.php';
    require_once RUYA_ABS_PATH.'/woocommerce/wc-template-hooks.php';
-}?>
+}
+
+

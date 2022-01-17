@@ -33,8 +33,37 @@ $cl_content ='col-xs-12 col-sm-12 col-md-12 col-lg-12';
 		<?php } ?>
 		<!-- End Left Sidebar -->
 				
+			
+			
+			
+			
 		<!-- Start Content -->
 		<div class="<?php echo esc_attr($cl_content) ?> content mo-blog">
+			
+			<div class="title-wrap">
+			<?php if (isset($ruya_options['post-meta-single']) && is_array($ruya_options['post-meta-single']) && in_array('cat', $ruya_options['post-meta-single'])) {  ?>
+				<p class="cat-name"><?php echo the_terms( get_the_ID(), 'category' ); ?></p>
+			<?php } ?>
+			<h3 class="post-title"><?php the_title(); ?></h3> 
+			 <ul class="meta-post">
+				<?php if (isset($ruya_options['post-meta-single']) && is_array($ruya_options['post-meta-single']) && in_array('author', $ruya_options['post-meta-single'])) {  ?>
+			    	<li><i class="fa fa-user-o"></i><?php echo esc_html__('By ', 'ruya').get_the_author(); ?></li>
+				<?php } ?>
+                <?php if (isset($ruya_options['post-meta-single']) && is_array($ruya_options['post-meta-single']) && in_array('date', $ruya_options['post-meta-single'])) {  ?>
+					<li><i class="fa fa-clock-o"></i><?php echo get_the_date(); ?></li>
+				<?php } ?>
+				<?php if (isset($ruya_options['post-meta-single']) && is_array($ruya_options['post-meta-single']) && in_array('comment', $ruya_options['post-meta-single'])) {  ?>
+<!-- 					<li><i class="fa fa-comments-o"></i><a href="<?php //comments_link(); ?>"><?php //comments_number( '0', '1', '%' ); echo esc_html__(' Comment', 'ruya'); ?></a></li>   -->
+				<?php } ?>
+				<?php if (isset($ruya_options['post-meta-single']) && is_array($ruya_options['post-meta-single']) && in_array('view', $ruya_options['post-meta-single'])) {  ?>
+					<li><i class="fa fa-bookmark-o"></i> <?php if(ruya_get_post_views(get_the_ID()) > 100){
+					echo ruya_get_post_views(get_the_ID()) . esc_html__(' Views', 'ruya'); 
+				}?></li>
+				<?php } ?>
+			 </ul> 
+	   </div>
+			
+			
 		 <?php if ( $tb_post_layout == '2cl' || $tb_post_layout == '2cr'  ) { ?> 
 		   <?php if ( $tb_post_header_layout == 'basic' ) { get_template_part( 'framework/templates/blog_single_basic/entry', get_post_format()); } ?>
 		  <?php } ?>
@@ -61,7 +90,7 @@ $cl_content ='col-xs-12 col-sm-12 col-md-12 col-lg-12';
 					<div class="clearfix"></div> 
 					
 					<div class="row">
-					   <div class="col-md-6 col-xs-12">
+					   <div class="col-md-6 col-xs-12 tag-sec">
                          <?php if (isset($ruya_options['post-meta-single']) && is_array($ruya_options['post-meta-single']) && in_array('tag', $ruya_options['post-meta-single'])) {  ?>
 							<div class="tags"> <?php the_tags( '<ul><li>', '</li><li>', '</li></ul>' ); ?></div> 
 						 <?php } ?>
@@ -104,12 +133,12 @@ $cl_content ='col-xs-12 col-sm-12 col-md-12 col-lg-12';
 		</div><!-- End content mo-blog -->
         
 		<!-- Start Right Sidebar -->
-		  <?php if ( $tb_post_layout == '2cr' ) { ?>
-	        <?php if ( $tb_post_header_layout == 'basic' ) {?><div class="basic-sidebar"><?php }?>
-            <?php if (is_active_sidebar('ruya-right-sidebar')) { ?><div class="sidebar sidebar-right"><?php dynamic_sidebar('ruya-right-sidebar'); ?></div>
-		    <?php } elseif(is_active_sidebar('ruya-main-sidebar')){?><div class="sidebar sidebar-right"><?php dynamic_sidebar('ruya-main-sidebar');?></div><?php } ?>
-		    <?php if ( $tb_post_header_layout == 'basic' ) {?></div><?php }?>
-		 <?php } ?>
+<!-- 		  <?php //if ( $tb_post_layout == '2cr' ) { ?>
+	        <?php //if ( $tb_post_header_layout == 'basic' ) {?><div class="basic-sidebar"><?php //}?>
+            <?php //if (is_active_sidebar('ruya-right-sidebar')) { ?><div class="sidebar sidebar-right"><?php //dynamic_sidebar('ruya-right-sidebar'); ?></div>
+		    <?php //} elseif(is_active_sidebar('ruya-main-sidebar')){?><div class="sidebar sidebar-right"><?php //dynamic_sidebar('ruya-main-sidebar');?></div><?php //} ?>
+		    <?php //if ( $tb_post_header_layout == 'basic' ) {?></div><?php //}?>
+		 <?php //} ?> -->
 	    <!-- End Right Sidebar -->
 	 <?php endwhile; ?> 
     </div><!-- End container -->

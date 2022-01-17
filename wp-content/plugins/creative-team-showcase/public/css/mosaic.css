@@ -1,0 +1,135 @@
+.ctshowcase-mosaic-layout  {
+    display : flex;
+    flex-direction: column;
+}
+
+.ctshowcase-mosaic-layout .ctshowcase-team-member-info {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.ctshowcase-mosaic-layout .ctshowcase-team-member-info  .ctshowcase-team-member-info-wrapper {
+    display: block;
+    text-align:center;
+    margin: 0 auto;
+    padding:8px;
+
+}
+.ctshowcase-mosaic-layout .ctshowcase-team-member-info  .ctshowcase-team-member-info-wrapper .ctshowcase-team-member-name ,
+.ctshowcase-mosaic-layout .ctshowcase-team-member-info  .ctshowcase-team-member-info-wrapper .ctshowcase-team-member-job-title{
+    margin: 0;
+}
+.ctshowcase-mosaic-layout.with-modal .ctshowcase-team-member-image-col .ctshowcase-team-member-profile-image {
+    position: relative;
+    z-index: 3;
+    display:block;
+    transition: transform 0.4s ease-in-out;
+    cursor: pointer;
+    max-width: 100%;
+    margin:0;
+    padding:0;
+    -webkit-transform: translateZ(0) scale(1.01);
+
+}
+.ctshowcase-mosaic-layout .ctshowcase-team-member-info  .ctshowcase-team-member-info-wrapper .ctshowcase-read-more-link {
+    margin-top: 5px;
+    display:inline-block;
+}
+
+.ctshowcase-mosaic-layout .ctshowcase-team-member-info  .ctshowcase-team-member-info-wrapper .ctshowcase-read-more-link .ctshowcase-after-read-more-link {
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+.ctshowcase-mosaic-layout .ctshowcase-team-member-info  .ctshowcase-team-member-info-wrapper .ctshowcase-read-more-link:hover .ctshowcase-after-read-more-link{
+    width: 100%;
+}
+.ctshowcase-mosaic-layout.with-modal .ctshowcase-team-member-image-col .ctshowcase-team-member-profile-image:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.2) rotate(0.02deg);
+}
+.ctshowcase-mosaic-layout .ctshowcase-team-member-info .ctshowcase-arrow {
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    z-index: 10;
+    border: 0;
+    border-top: 20px solid transparent !important;
+    border-bottom: 20px solid transparent !important;
+    margin-top: -20px;
+    top: 50%;
+    border-right-width: 20px;
+    border-style: solid;
+    left: -20px;
+}
+
+.ctshowcase-mosaic-layout .ctshowcase-team-member-image-col {
+    overflow: hidden;
+}
+.ctshowcase-mosaic-layout .ctshowcase-team-member-socials a {
+    text-decoration: none !important;
+    border: none;
+}
+.ctshowcase-mosaic-layout .ctshowcase-team-member-socials a:hover i {
+    transform: scale(1.3);
+}
+.ctshowcase-mosaic-layout .ctshowcase-main-row:nth-child(even) .ctshowcase-team-member .ctshowcase-team-member-image-col {
+    order : 1
+}
+.ctshowcase-mosaic-layout .ctshowcase-main-row:nth-child(even) .ctshowcase-team-member .ctshowcase-arrow,
+.ctshowcase-mosaic-layout.is-rtl .ctshowcase-team-member-info .ctshowcase-arrow {
+    left: auto;
+    right: -20px;
+    border-left-width: 20px;
+    border-right-width: 0;
+}
+.ctshowcase-mosaic-layout.is-rtl .ctshowcase-main-row:nth-child(even) .ctshowcase-team-member .ctshowcase-arrow {
+    right: auto;
+    left: -20px;
+    border-right-width: 20px;
+    border-left-width: 0;
+}
+
+
+@media(max-width: 767px) {
+    .ctshowcase-mosaic-layout .ctshowcase-team-member{ 
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .ctshowcase-mosaic-layout .ctshowcase-main-row:nth-child(even) .ctshowcase-team-member .ctshowcase-team-member-image-col {
+        order : 0
+    }
+    .ctshowcase-mosaic-layout .ctshowcase-main-row:nth-child(even) .ctshowcase-team-member .ctshowcase-arrow {
+        right: auto;
+        left: -20px;
+        border-right-width: 20px;
+        border-left-width: 0;
+    }
+    .ctshowcase-mosaic-layout.is-rtl .ctshowcase-main-row:nth-child(even) .ctshowcase-team-member .ctshowcase-arrow {
+        left: auto;
+        right: -20px;
+        border-left-width: 20px;
+        border-right-width: 0;
+    }
+    .ctshowcase-mosaic-layout .ctshowcase-main-row .ctshowcase-team-member:nth-child(even) .ctshowcase-team-member-image-col{
+        order: 1;
+    }
+    .ctshowcase-mosaic-layout .ctshowcase-main-row .ctshowcase-team-member:nth-child(even)  .ctshowcase-arrow {
+        left: auto;
+        right: -20px;
+        border-left-width: 20px;
+        border-right-width: 0;
+    }
+    .ctshowcase-mosaic-layout.is-rtl .ctshowcase-main-row .ctshowcase-team-member:nth-child(even)  .ctshowcase-arrow {
+        right: auto;
+        left: -20px;
+        border-right-width: 20px;
+        border-left-width: 0;
+    }
+}
+    

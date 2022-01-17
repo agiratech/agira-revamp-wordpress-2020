@@ -1,0 +1,421 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+/************************ short code settings page ****************************/
+.visible {
+    visibility: visible;
+}
+.hidden {
+    visibility: hidden;
+}
+.ctshowcase-table {
+    width: 100%;
+}
+.ctshowcase-table td {
+    vertical-align: top;
+}
+.ctshowcase-table select {
+    width: 100%;
+}
+.ctshowcase-general-settings-table td{
+    vertical-align: middle;
+}
+button.advanced-customization-for-modal , .advanced-customization-for-member-details-col{
+    background: #cb4100 !important;
+    color: #fff !important;
+    margin:10px 0 10px 50px !important;
+    padding: 10px !important;
+    display: inline-block !important; 
+    border: none !important;
+    height: 40px !important;
+    width: auto !important;
+    opacity: 1 !important;
+}
+.modal-settings , .inlinePreview-member-details-settings {
+    display: none;
+}
+.ctshowcase-tgl {
+    display: none !important;
+}
+.ctshowcase-tgl, .ctshowcase-tgl:after, .ctshowcase-tgl:before, .ctshowcase-tgl *, .ctshowcase-tgl *:after, .ctshowcase-tgl *:before, .ctshowcase-tgl + .ctshowcase-tgl-btn {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ctshowcase-tgl::-moz-selection, .ctshowcase-tgl:after::-moz-selection, .ctshowcase-tgl:before::-moz-selection, .ctshowcase-tgl *::-moz-selection, .ctshowcase-tgl *:after::-moz-selection, .ctshowcase-tgl *:before::-moz-selection, .ctshowcase-tgl + .ctshowcase-tgl-btn::-moz-selection {
+    background: none;
+}
+.ctshowcase-tgl::selection, .ctshowcase-tgl:after::selection, .ctshowcase-tgl:before::selection, .ctshowcase-tgl *::selection, .ctshowcase-tgl *:after::selection, .ctshowcase-tgl *:before::selection, .ctshowcase-tgl + .ctshowcase-tgl-btn::selection {
+    background: none;
+}
+.ctshowcase-tgl + .ctshowcase-tgl-btn {
+    outline: 0;
+    display: block;
+    width: 3em;
+    height: 1.5em;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.ctshowcase-tgl + .ctshowcase-tgl-btn:after, .ctshowcase-tgl + .ctshowcase-tgl-btn:before {
+    position: relative;
+    display: block;
+    content: "";
+    width: 50%;
+    height: 100%;
+}
+.ctshowcase-tgl + .ctshowcase-tgl-btn:after {
+    left: 0;
+}
+.ctshowcase-tgl + .ctshowcase-tgl-btn:before {
+    display: none;
+}
+.ctshowcase-tgl:checked + .ctshowcase-tgl-btn:after {
+    left: 50%;
+}
+.ctshowcase-tgl-light + .ctshowcase-tgl-btn {
+    background: darkgray;
+    border-radius: 2em;
+    padding: 2px;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+.ctshowcase-tgl-light + .ctshowcase-tgl-btn:after {
+    border-radius: 50%;
+    background: #fff;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.ctshowcase-tgl-light:checked + .ctshowcase-tgl-btn {
+    background: #2bad2f;
+}
+table td {
+    padding-left: 20px;
+}
+.skills-table td {
+    vertical-align: top;
+}
+.shortcode-display {
+    background: #0085ba;
+    color: #fff;
+    padding: 5px 0 5px 10px;
+    margin-top : 10px;
+    font-size: 14px;
+}
+#cts-shortcode {
+    color: #666;
+    font-size: 14px;
+    font-style: italic;
+
+}
+.ctshowcase-table-heading {
+    color : #fff;
+    background : #1e7458;
+    text-align: center;
+    font-size : 18px !important;
+    margin: 10px 0 !important;
+    padding: 15px;
+    font-weight: normal;
+}
+.select2-container , .select2-selection , .selection {
+    display: block !important; 
+    width : 100% !important;
+}
+.sortable-team-member{
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 600px;
+}
+.sortable-team-member:nth-child(even) {
+    background: gray;
+    color: white;
+}
+.sortable-team-member:nth-child(odd) {
+    background: #e3e3e3;
+    color: black;
+}
+.sortable-team-member img  {
+    margin-right: 20px
+}
+.sortable-team-member img , .sortable-team-member span {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+
+}
+input[type=range]{
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: brown;
+    margin-top: -4px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}
+.skills-table {
+    width: 100%;
+    text-align: center;
+}
+.delete-skill button {
+    background-color: #d9534f !important;
+    border-color: #d43f3a !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.ctshowcase-ui-tabgroup {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #929292;
+}
+.ctshowcase-ui-tabgroup:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0
+}
+.ctshowcase-ui-tabgroup > .ui-tabs {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.ui-tabs i , .ui-tabs img{
+    width: 20px;
+    font-size: 25px;
+    color: #000;
+
+}
+.ctshowcase-ui-tabgroup > .ui-tabs > [class^="ui-tab"] {
+    position: relative;
+    float: left;
+    display: block;
+    background-color: #fff;
+    margin: 0 0 1px 0;
+    padding: 9px 15px;
+    cursor: pointer;
+    min-width: 100%;
+    min-height: 40px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.ctshowcase-ui-tabgroup > .ui-tabs > [class^="ui-tab"] > .fa {
+    padding-right: 10px;
+    font-size: 15px;
+}
+.ctshowcase-ui-tabgroup > input[class^="ui-tab"] {
+    -webkit-appearance: none;
+    -moz-appearance: none !important;
+    position: relative;
+    float: left;
+    left: -99999px;
+    padding: 0;
+    margin: 0 0 0 -5px; /* FireFox hack */
+    height: 0;
+    width: 0;
+    z-index: -100;
+    overflow: hidden;
+    outline: 0;
+    float: left;
+
+}
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab1 ~ .layout-settings.visible .ui-tabs > .ui-tab1,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab2 ~ .layout-settings.visible ui-tabs > .ui-tab2,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab3 ~  .ui-tabs > .ui-tab3,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab4 ~  .ui-tabs > .ui-tab4,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab5 ~  .ui-tabs > .ui-tab5 {
+    opacity: 0.8;
+}
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab1:focus ~  .ui-tabs > .ui-tab1,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab2:focus ~  .ui-tabs > .ui-tab2,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab3:focus ~  .ui-tabs > .ui-tab3,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab4:focus ~  .ui-tabs > .ui-tab4,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab5:focus ~  .ui-tabs > .ui-tab5 {
+    text-decoration: underline;
+    box-shadow: inset 0 40px 60px -40px rgba(255, 255, 255, 0.2);
+    background: darkgray;
+    color: #fff;
+    fill:#fff;
+    opacity: 1;
+}
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab1:checked ~  .ui-tabs > .ui-tab1,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab2:checked ~  .ui-tabs > .ui-tab2,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab3:checked ~  .ui-tabs > .ui-tab3,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab4:checked ~  .ui-tabs > .ui-tab4,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab5:checked ~  .ui-tabs > .ui-tab5 {
+    opacity: 1;
+    position: relative;
+    background: darkgray;
+    color: #fff;
+    fill:#fff;
+}
+
+.ctshowcase-ui-tabgroup > .ui-panels > [class^="ui-tab"] {
+    background-color: #fff;
+    color: #4a6e78;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    float: left;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.ctshowcase-ui-tabgroup.left-side > .ui-panels > [class^="ui-tab"] {
+    border-width: 1px;
+}
+.ctshowcase-ui-tabgroup > .ui-panels > [class^="ui-tab"]:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab1:checked ~  .ui-panels > .ui-tab1,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab2:checked ~  .ui-panels > .ui-tab2,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab3:checked ~  .ui-panels > .ui-tab3,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab4:checked ~  .ui-panels > .ui-tab4,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab5:checked ~  .ui-panels > .ui-tab5 {
+    opacity: 1;
+}
+
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab1:checked ~  .ui-panels > .ui-tab1 table,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab2:checked ~  .ui-panels > .ui-tab2 table,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab3:checked ~  .ui-panels > .ui-tab3 table,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab4:checked ~  .ui-panels > .ui-tab4 table,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab5:checked ~  .ui-panels > .ui-tab5 table  {
+    display: block;
+    padding-top: 20px;
+}
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab1 ~  .ui-panels > .ui-tab1 table,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab2 ~  .ui-panels > .ui-tab2 table,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab3 ~  .ui-panels > .ui-tab3 table,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab4 ~  .ui-panels > .ui-tab4 table,
+.layout-settings.visible .ctshowcase-ui-tabgroup > input.ui-tab5 ~  .ui-panels > .ui-tab5 table {
+    display: none;
+}
+.ui-tabs:not(.left-side) > .ui-panels > [class^="ui-tab"] {
+    width: 100%;
+}
+.ctshowcase-ui-tabgroup.left-side.icons-only > .ui-tabs {
+    float: left;
+}
+.ctshowcase-ui-tabgroup.left-side.icons-only > .ui-panels {
+    margin-left: 50px;
+}
+.ctshowcase-ui-tabgroup.left-side.icons-only > .ui-tabs > .ui-tab:first-child {
+    margin: 5px 0 0 0;
+}
+.ctshowcase-ui-tabgroup.left-side.icons-only > .ui-tabs > [class^="ui-tab"] {
+    margin: 1px 0 0 0;
+    width: 100%;
+}
+
+
+
+.ctshowcase-ui-tabgroup button{
+    -webkit-flex: 1;
+    flex: 1;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    color: #bcbcbc;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.ctshowcase-ui-tabgroup  svg {
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin: 0 auto;
+    line-height: 1;
+    
+}
+
+
+.ctshowcase-modal-options span, .ctshowcase-inlinePreview-options span{
+    width: 150px;
+    display: inline-block 
+}
+.ctshowcase-modal-options label , .ctshowcase-inlinePreview-options label {
+    display: inline-block !important;
+}
+.ctshowcase-options-form h4{
+    display: inline-block;
+    border-bottom: 1px solid #000;
+    padding: 10px;
+}
+@media screen and (min-width: 639px) {
+    .ctshowcase-ui-tabgroup.left-side > .ui-tabs {
+        width: 140px;
+        float: left;
+    }
+    .ctshowcase-ui-tabgroup.left-side > .ui-panels {
+        margin-left: 140px;
+    }
+    .ctshowcase-ui-tabgroup.left-side.icons-only > .ui-tabs {
+        width: 50px;
+        float: left;
+    }
+    .ctshowcase-ui-tabgroup.left-side.icons-only > .ui-panels {
+        margin-left: 50px;
+    }
+    .ui-tabs:not(.left-side) > .ui-panels {
+        float: left;
+        width: 100%;
+    }
+    .ctshowcase-ui-tabgroup > .ui-tabs > [class^="ui-tab"]:first-child {
+        margin: 1px 0 0 5px;
+    }
+    .ctshowcase-ui-tabgroup > .ui-tabs > [class^="ui-tab"] {
+        margin: 0 !important;
+        min-width: 15%;
+    }
+
+    .ctshowcase-ui-tabgroup.left-side > .ui-tabs > .ui-tab:first-child {
+        margin: 5px 0 0 0;
+    }
+    .ctshowcase-ui-tabgroup.left-side > .ui-tabs > [class^="ui-tab"] {
+        border-width: 1px 1px 1px 1px;
+        margin: 1px 0 0 0;
+        width: 100%;
+    }
+}
+@media(min-width:600px){
+    .ctshowcase-modal-options ,.ctshowcase-inlinePreview-options {
+        width: 600px;
+    }
+}
+.layout-settings {
+    display: none;
+}

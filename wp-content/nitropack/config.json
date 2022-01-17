@@ -1,0 +1,19 @@
+{
+    "staging2020.agiratech.com": {
+        "siteId": "aPCMUvrNAQlRjQZOyifNBhYXUTsfMivN",
+        "siteSecret": "ROeziw9ExREX3k1B3APN7CeV8qFlS1USteeDQIWzi7CEQtY1hWljWFshzeF0gIlN",
+        "blogId": 1,
+        "compression": false,
+        "webhookToken": "7c3ff57892a012a4bc09094482898a47",
+        "home_url": "https:\/\/staging2020.agiratech.com",
+        "admin_url": "https:\/\/staging2020.agiratech.com\/wp-admin\/",
+        "hosting": "unknown",
+        "alwaysBuffer": true,
+        "isEzoicActive": false,
+        "isLateIntegrationInitRequired": false,
+        "isDlmActive": false,
+        "dlm_downloading_url": null,
+        "dlm_download_endpoint": null,
+        "pluginVersion": "1.5.4"
+    }
+}

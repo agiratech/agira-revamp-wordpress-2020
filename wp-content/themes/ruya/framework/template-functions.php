@@ -11,12 +11,12 @@ if ( ! function_exists( 'ruya_setup' ) ) {
 		// Enable support for Post Thumbnails, and declare sizes.
 		add_theme_support( 'post-thumbnails' );
 		// Theme resize image
-		add_image_size( 'ruya-full'  , 1500, 730, true ); //header carousel
-		add_image_size( 'ruya-medium', 750 , 500, true ); //single blog
-		add_image_size( 'ruya-small' , 480 , 380, true ); //blog masonry
-		add_image_size( 'ruya-lg-height' , 450 , 500, true ); //blog Overlay
-		add_image_size( 'ruya-team'  , 540 , 650, true );
-		add_image_size( 'ruya-thumb' , 100 , 100, true );
+		add_image_size( 'ruya-full'  , 1500, 730, false ); //header carousel
+		add_image_size( 'ruya-medium', 750 , 500, false ); //single blog
+		add_image_size( 'ruya-small' , 480 , 380, false ); //blog masonry
+		add_image_size( 'ruya-lg-height' , 450 , 500, false ); //blog Overlay
+		add_image_size( 'ruya-team'  , 540 , 650, false );
+		add_image_size( 'ruya-thumb' , 100 , 100, false );
 		//Enable support for Title Tag
 		 add_theme_support( "title-tag" );
 		// This theme uses wp_nav_menu() in locations.

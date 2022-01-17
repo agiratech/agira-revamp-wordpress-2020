@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1024px){
+.with-sidebar.mo-blog {
+    width: 100%!important;
+}
+	.with-sidebar.mo-blog h2{
+		font-size:32px;
+	}
+}
+
+@media (min-width: 1024px){
+.with-sidebar.mo-blog {
+	 width: 72%!important;
+}
+}
+
+

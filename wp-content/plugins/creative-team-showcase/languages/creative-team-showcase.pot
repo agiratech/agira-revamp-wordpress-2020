@@ -1,0 +1,936 @@
+# Copyright (C) 2019 Infinue
+# This file is distributed under the same license as the Creative Team Showcase package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Creative Team Showcase 2.1.1\n"
+"POT-Creation-Date: 2019-04-03 06:40:52+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: admin/class-creative-team-showcase-admin.php:166
+msgid "Team Members"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:167
+msgid "Team Member"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:168
+#: admin/class-creative-team-showcase-admin.php:169
+#: admin/class-creative-team-showcase-admin.php:171
+msgid "Add New Team Member"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:170
+msgid "Edit Team Member"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:172
+msgid "View Team Member"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:173
+msgid "Search Team Members"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:174
+msgid "No Team Members found"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:175
+msgid "No Team Members found in trash"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:176
+msgid "Member profile image"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:177
+msgid "Set member profile image"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:178
+msgid "Remove member profile image"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:179
+msgid "Use as member profile image"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:209
+msgid "Shortcodes"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:210
+#: admin/class-creative-team-showcase-admin.php:1039
+msgid "Shortcode"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:211
+#: admin/class-creative-team-showcase-admin.php:212
+#: admin/class-creative-team-showcase-admin.php:214
+msgid "Add New Shortcode"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:213
+msgid "Edit Shortcode"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:215
+msgid "View Shortcode"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:216
+msgid "Search Shortcodes"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:217
+msgid "No Shortcodes found"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:218
+msgid "No Shortcodes found in trash"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:275
+msgid "Main Information"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:278
+msgid "Social Media Links"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:281
+msgid "Skills"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:303
+msgid "Job Title: "
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:312
+msgid "Email: "
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:321
+msgid "Phone: "
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:330
+msgid "Location: "
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:339
+msgid "Personal Site: "
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:402
+msgid "Skill No"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:405
+msgid "Skill Name"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:408
+msgid "Skill Level"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:411
+msgid "Skill Bar Foreground Fill Color"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:441
+msgid "Add new skill"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:484
+msgid "Delete"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:534
+#: admin/class-creative-team-showcase-admin.php:544
+msgid "Groups"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:535
+msgid "Group"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:536
+msgid "Search Group"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:537
+msgid "All Groups"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:538
+msgid "Parent Group"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:539
+msgid "Parent Group:"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:540
+msgid "Edit Group"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:541
+msgid "Update Group"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:542
+msgid "Add New Group"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:543
+msgid "New Group Name"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:545
+msgid "No groups found"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:546
+msgid "No Groups found in trash"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:566
+msgid "Settings"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:576
+msgid "Team ordering"
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:916
+#: admin/class-creative-team-showcase-admin.php:960
+msgid "Override default theme color: "
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:931
+#: admin/class-creative-team-showcase-admin.php:972
+msgid ""
+"This feature works only in case of wave layout. Theme color means the color "
+"for job title , connectors and waves around team member image."
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:934
+msgid "Theme Color: "
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:977
+msgid "Theme color: "
+msgstr ""
+
+#: admin/class-creative-team-showcase-admin.php:1040
+msgid "Date"
+msgstr ""
+
+#: admin/integration/visual-composer/ctshowcase-vc-element.php:43
+msgid "Creative Team Showcase shortcode"
+msgstr ""
+
+#: admin/integration/visual-composer/ctshowcase-vc-element.php:45
+msgid "Select your own shortcode"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Creative Team Showcase"
+msgstr ""
+
+#: admin/integration/visual-composer/ctshowcase-vc-element.php:53
+msgid "Select Shortcode"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:2
+msgid "General settings"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:7
+msgid "Layout: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:22
+msgid "Choose the layout preset that you would like to show."
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:26
+msgid "Number of team members to load"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:29
+msgid "Leave it empty or 0 if you would like to display all team members."
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:33
+msgid "Order By:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:36
+msgid "Menu Order"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:37
+msgid "Team Member Name (Alphabetical)"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:38
+msgid "Publish Date"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:39
+msgid "Modified Date"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:40
+msgid "ID"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:41
+msgid "Random"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:45
+msgid ""
+"In case of menu order option, you can go to team ordering page for ordering "
+"drag and drop. Note: Drag and drop team ordering works only in case of "
+"choosing menu order option."
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:49
+msgid "Order:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:52
+msgid "Ascending"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:53
+msgid "Descending"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:59
+msgid "Groups to show:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:79
+msgid "Leave empty if you would like to show all groups."
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:85
+msgid "Members to include:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:99
+msgid "Leave empty if you would like to include all members."
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:106
+msgid "Members to exclude:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:122
+msgid "Leave empty if you don't like to exclude any member."
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:129
+msgid "Entry link: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:132
+msgid "Left Modal"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:133
+msgid "Right Modal"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:134
+msgid "Inactive"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:138
+msgid "On click on team member image."
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:145
+msgid "Advanced Customization for modal"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:150
+#: admin/partials/shortcode/shortcode-hex-settings.php:38
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:140
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:107
+#: admin/partials/shortcode/shortcode-slider-settings.php:67
+#: admin/partials/shortcode/shortcode-wave-settings.php:57
+msgid "Colors:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:155
+msgid "Modal background: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:168
+msgid "Modal header background: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:181
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:159
+msgid "Main text color: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:193
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:171
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:120
+#: admin/partials/shortcode/shortcode-slider-settings.php:80
+msgid "Team member name color: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:204
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:184
+msgid "Team member job title font color: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:215
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:198
+msgid "Other headings font color:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:225
+#: admin/partials/shortcode/shortcode-general-settings.php:340
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:131
+msgid "Other headings are skills, phone, email, location and personal site headings"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:232
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:210
+msgid "Skill bar background color: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:245
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:223
+msgid "Separator color:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:257
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:235
+msgid "Social Media bar background color: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:269
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:247
+msgid "Social media font color: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:281
+msgid "Navigation arrows and close button color: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:294
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:85
+msgid "Font sizes:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:299
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:100
+msgid "Team member name font size(px): "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:309
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:110
+msgid "Team member job title font size(px): "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:321
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:90
+msgid "Main text font size(px)"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:331
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:122
+msgid "Other headings font size(px):"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:348
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:275
+msgid "Other headings title:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:353
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:280
+msgid "Skills Title: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:361
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:288
+msgid "Location Title: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:369
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:296
+msgid "Email Title: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:377
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:304
+msgid "Phone Title: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-general-settings.php:385
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:312
+msgid "Personal Site Title: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-hex-settings.php:3
+msgid "Hexagonal settings"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-hex-settings.php:6
+msgid "No of hexagons in odd rows:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-hex-settings.php:16
+msgid "Odd rows are 1st row, 3rd row, 5th row and so on."
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-hex-settings.php:21
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:60
+msgid "Enable groups filter: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-hex-settings.php:42
+msgid "Background overlay color:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-hex-settings.php:46
+msgid "Team Member name color : "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-hex-settings.php:50
+msgid "Team Member job title color : "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-hex-settings.php:54
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:146
+msgid "Filter inactive link font color: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-hex-settings.php:62
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:155
+msgid "Filter inactive link background color: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-hex-settings.php:71
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:164
+msgid "Filter active link font color: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-hex-settings.php:81
+msgid "Filter active link background color:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-hex-settings.php:96
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:230
+#: admin/partials/shortcode/shortcode-slider-settings.php:113
+msgid "Media queries:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-hex-settings.php:162
+#: admin/partials/shortcode/shortcode-hex-settings.php:174
+#: admin/partials/shortcode/shortcode-hex-settings.php:194
+#: admin/partials/shortcode/shortcode-hex-settings.php:206
+#: admin/partials/shortcode/shortcode-hex-settings.php:218
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:167
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:189
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:219
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:241
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:263
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:296
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:318
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:348
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:370
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:392
+#: admin/partials/shortcode/shortcode-slider-settings.php:179
+#: admin/partials/shortcode/shortcode-slider-settings.php:201
+#: admin/partials/shortcode/shortcode-slider-settings.php:231
+#: admin/partials/shortcode/shortcode-slider-settings.php:253
+#: admin/partials/shortcode/shortcode-slider-settings.php:275
+msgid "Team Member name font size(px) : "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-hex-settings.php:166
+#: admin/partials/shortcode/shortcode-hex-settings.php:182
+#: admin/partials/shortcode/shortcode-hex-settings.php:198
+#: admin/partials/shortcode/shortcode-hex-settings.php:210
+#: admin/partials/shortcode/shortcode-hex-settings.php:222
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:171
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:197
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:223
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:245
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:267
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:300
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:326
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:352
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:374
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:396
+#: admin/partials/shortcode/shortcode-slider-settings.php:183
+#: admin/partials/shortcode/shortcode-slider-settings.php:209
+#: admin/partials/shortcode/shortcode-slider-settings.php:235
+#: admin/partials/shortcode/shortcode-slider-settings.php:257
+#: admin/partials/shortcode/shortcode-slider-settings.php:279
+msgid "Team Member job title font size(px) : "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:3
+msgid "Inline preview settings"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:8
+msgid "List style:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:13
+msgid "Square"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:14
+msgid "Circle"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:15
+msgid "Hexagonal"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:22
+msgid "Number of columns in the list:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:33
+msgid ""
+"Incase of hexagonal style, number of columns will be for odd rows (first "
+"row, third row, fifth row and so on)."
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:38
+msgid "List column background:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:45
+msgid "Display heading: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:59
+#: admin/partials/shortcode/shortcode-wave-settings.php:25
+msgid "Heading: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:67
+#: admin/partials/shortcode/shortcode-wave-settings.php:73
+msgid "Heading color: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:72
+msgid "Heading font size:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:80
+msgid "Advanced Customization for Member details column"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:145
+msgid "Column Background: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:259
+msgid "Navigation arrows and up button color: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-inline-preview-settings.php:265
+msgid "These buttons appear only in small screens(<768px)"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:3
+msgid "Mosaic settings"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:7
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:75
+#: admin/partials/shortcode/shortcode-slider-settings.php:51
+msgid "Display social icons:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:15
+msgid "Display read more link:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:26
+msgid "Read more text:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:33
+msgid "Odd rows colors:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:38
+msgid "Odd Rows theme color:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:40
+msgid "The background for odd rows(first row, third row, fifth row and so on). "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:43
+msgid "Odd rows team member name color:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:48
+msgid "Odd rows team member job title color:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:53
+msgid "Odd rows team member social icons color:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:58
+msgid "Odd rows \"Read More link\" color:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:67
+msgid "Even rows colors:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:71
+msgid "Even Rows theme color:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:73
+msgid "The background for even rows(second row, forth row, sixth row and so on)."
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:77
+msgid "Even rows team member name color:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:82
+msgid "Even rows team member job title color:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:87
+msgid "Even rows team member social icons color:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:92
+msgid "Even rows \"Read More link\" color:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:101
+#: admin/partials/shortcode/shortcode-wave-settings.php:85
+msgid "Media Queries:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:176
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:206
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:228
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:250
+#: admin/partials/shortcode/shortcode-mosaic-settings.php:272
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:305
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:335
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:357
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:379
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:401
+#: admin/partials/shortcode/shortcode-slider-settings.php:188
+#: admin/partials/shortcode/shortcode-slider-settings.php:218
+#: admin/partials/shortcode/shortcode-slider-settings.php:240
+#: admin/partials/shortcode/shortcode-slider-settings.php:262
+#: admin/partials/shortcode/shortcode-slider-settings.php:284
+msgid "Social Icons font size(px) : "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:3
+msgid "Normal grid settings"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:6
+msgid "Select style:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:16
+#: admin/partials/shortcode/shortcode-slider-settings.php:7
+msgid "Select type:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:25
+#: admin/partials/shortcode/shortcode-slider-settings.php:16
+msgid "Hover transition:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:35
+msgid "Number of columns: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:47
+msgid "Enable offset between columns: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:89
+msgid "Display circle bar:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:112
+#: admin/partials/shortcode/shortcode-slider-settings.php:72
+msgid "Background overlay on hover: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:125
+msgid "Team member name background color: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:130
+#: admin/partials/shortcode/shortcode-slider-settings.php:85
+msgid "Team member job title color:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:135
+msgid "Team member job title background color:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:140
+#: admin/partials/shortcode/shortcode-slider-settings.php:90
+msgid "Team member social icons color:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:174
+msgid "Filter active link background color: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:184
+msgid "Info icon color: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:195
+msgid "Info icon background color: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:206
+msgid "Circle bar filling color: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-normal-grid-settings.php:217
+msgid "Circle bar background color: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-slider-settings.php:4
+msgid "Slider settings"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-slider-settings.php:26
+msgid "Number of slides per row: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-slider-settings.php:38
+msgid "Enable offset between slides: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-slider-settings.php:95
+msgid "Arrows background:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-slider-settings.php:102
+msgid "Arrows color:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-wave-settings.php:3
+msgid "Wave settings"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-wave-settings.php:6
+msgid "Display heading?"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-wave-settings.php:20
+msgid "Default heading shown in middle of the wave layout."
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-wave-settings.php:30
+msgid "Display subheading?"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-wave-settings.php:44
+msgid ""
+"Default subheading shown in middle of the wave layout just above the "
+"heading."
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-wave-settings.php:49
+msgid "Subheading: "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-wave-settings.php:61
+msgid "General theme color:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-wave-settings.php:64
+msgid ""
+"Theme color is the color for  job title, connectors and waves around the "
+"team member image. Note: This theme color can be overriden for each group "
+"and this feature is only in wave layout."
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-wave-settings.php:68
+msgid "Team member name color:"
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-wave-settings.php:77
+msgid "Subheading color : "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-wave-settings.php:151
+#: admin/partials/shortcode/shortcode-wave-settings.php:164
+#: admin/partials/shortcode/shortcode-wave-settings.php:188
+#: admin/partials/shortcode/shortcode-wave-settings.php:200
+msgid "Team Member name / heading font size(px) : "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-wave-settings.php:155
+#: admin/partials/shortcode/shortcode-wave-settings.php:168
+#: admin/partials/shortcode/shortcode-wave-settings.php:180
+#: admin/partials/shortcode/shortcode-wave-settings.php:192
+#: admin/partials/shortcode/shortcode-wave-settings.php:204
+msgid "Team Member job title / subheading font size(px) : "
+msgstr ""
+
+#: admin/partials/shortcode/shortcode-wave-settings.php:176
+msgid "Team Member name /heading font size(px) : "
+msgstr ""
+
+#: admin/partials/team-ordering.php:15
+msgid "Drag and Drop Team Order"
+msgstr ""
+
+#: public/partials/templates/hexagonal.php:19
+#: public/partials/templates/normal-grid.php:21
+msgid "All"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.creativeteamshowcase.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The plugin provides you with very creative templates for your team."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Infinue"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://codecanyon.net/user/infinue"
+msgstr ""

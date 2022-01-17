@@ -1,0 +1,81 @@
+
+.ctshowcase-layout.with-filter .ctshowcase-group-buttons {
+  text-align: center;
+  margin: 0 0 60px 0;
+}
+.ctshowcase-layout.with-filter .ctshowcase-group-buttons a {
+  text-decoration: none !important;
+  padding: 9px 15px;
+  margin: 0 10px;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+}
+.ctshowcase-layout.with-filter .ctshowcase-group-buttons a.active {
+  color: #373B3D;
+}
+.ctshowcase-layout.with-filter .ctshowcase-team-member.no-transition {
+    transition: none !important;
+}
+.ctshowcase-layout.with-filter .ctshowcase-team-member.already-shown  {
+    transition-property: transform,opacity;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+.ctshowcase-layout.with-filter .ctshowcase-team-member.show {
+    z-index: 2;
+}
+.ctshowcase-layout.with-filter.ctshowcase-team-member.show:not(.already-shown),
+.ctshowcase-layout.with-filter  .ctshowcase-team-member  .ctshowcase-team-member-wrapper.no-transition,
+.ctshowcase-layout.with-filter .ctshowcase-team-member.no-transition 
+{
+    transition: none;
+    -webkit-transition: none; 
+    -moz-transition: none ; 
+}
+.ctshowcase-layout.with-filter  .ctshowcase-team-member:not(.show) .ctshowcase-team-member-wrapper {
+    opacity: 0;
+      -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+       transition-property: transform,opacity;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+
+}
+.ctshowcase-layout.with-filter  .show:not(.already-shown) .ctshowcase-team-member-wrapper{
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity : 1;
+       transition-property: transform,opacity;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+
+@media (max-width: 610px) {
+  .ctshowcase-layout.with-filter .ctshowcase-group-buttons {
+    margin: 0 0 30px 0;
+  }
+  .ctshowcase-layout.with-filter .ctshowcase-group-buttons a {
+    display: inline-block;
+    width: 46%;
+    padding: 12px 10px !important;
+    margin: 1.5% 1% !important;
+  }
+  .ctshowcase-layout.with-filter .ctshowcase-group-buttons a:nth-child(even) {
+    margin-right: 0;
+  }
+  .ctshowcase-layout.with-filter .ctshowcase-group-buttons a:nth-child(odd) {
+    margin-left: 0;
+  }
+}
+@media (min-width: 611px) {
+  .ctshowcase-layout.with-filter .ctshowcase-group-buttons a:first-child {
+    margin-left: 0;
+  }
+  .ctshowcase-layout.with-filter .ctshowcase-group-buttons a:last-child {
+    margin-right: 0;
+  }
+}

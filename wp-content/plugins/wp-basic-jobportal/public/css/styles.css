@@ -1,0 +1,65 @@
+.btn-front-submit {
+    height: 35px;
+    width: 120px !important;
+    font-size: 14px !important;
+}
+
+.form-container {
+    background-color: #f3f5f6;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.required {
+    color: red;
+}
+
+#success_message,
+.cand-from-others,
+.app-job-others,
+[id^="successMsg"],
+[id^="errorMsg"] {
+    display: none;
+}
+
+#accordion .jobdetails,
+[id^="successMsg"],
+[id^="errorMsg"] {
+    display: none;
+}
+
+.accordion_container {
+    width:100%
+}
+.accordion {
+    margin-bottom:5px !important;
+}
+  
+.accordion_head {
+    background-color:cornflowerblue;
+    color: white;
+    cursor: pointer;
+    font-family: arial;
+    font-size: 14px;
+    margin: 0 0 1px 0;
+    padding: 7px 11px;
+    font-weight: bold;
+}
+
+.accordion_body {
+    background:#ffffff
+}
+.accordion_body p {
+    padding: 18px 5px;
+    margin: 0px;
+}
+.plusminus {
+    float: right;
+    font-size: 32px;
+    border-radius: 50% 50%;
+    border: 2px solid #ffffff;
+    width: 40px;
+    text-align: center;
+    margin:-1px
+}
